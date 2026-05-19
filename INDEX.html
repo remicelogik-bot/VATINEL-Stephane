@@ -650,6 +650,64 @@ nav{
   margin-top:0.4rem;
 }
 
+/* ── RECOMMANDATIONS / TÉMOIGNAGES ── */
+.section-reco{
+  padding:7rem 4rem;
+  background:var(--papier);
+  position:relative;
+  overflow:hidden;
+}
+
+.reco-inner{max-width:1100px;margin:0 auto;display:grid;gap:3rem;}
+
+.reco-header{max-width:720px;margin-bottom:2rem;}
+
+.reco-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;
+  margin-bottom:2.5rem;
+}
+
+.reco-card{
+  background:white;border-radius:22px;padding:2rem;
+  box-shadow:0 10px 36px rgba(44,40,32,0.08);
+  border:1px solid rgba(173,201,184,0.22);
+}
+
+.reco-label{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  font-family:'Caveat',cursive;font-size:0.9rem;color:var(--orange);
+  margin-bottom:1rem;
+}
+
+.reco-card p{font-size:0.95rem;line-height:1.8;color:var(--gris);}
+
+.reco-author{
+  margin-top:1.2rem;font-size:0.85rem;font-weight:500;color:var(--encre);
+}
+
+.testi-list{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;
+}
+
+.testi-card{
+  background:var(--foret);border-radius:22px;padding:1.8rem;
+  color:white;position:relative;
+}
+
+.testi-body{
+  font-size:0.95rem;line-height:1.85;
+}
+
+.testi-author{
+  margin-top:1.2rem;font-size:0.82rem;font-weight:500;color:rgba(255,255,255,0.8);
+}
+
+@media(max-width:1024px){
+  .reco-grid,.testi-list{grid-template-columns:1fr;}
+}
+
 /* Citation block */
 .lieux-cite{
   background:var(--foret);border-radius:24px;
@@ -1544,6 +1602,50 @@ footer{
       <div class="lstat"><div class="lstat-val" style="color:var(--foret)">1M+</div><div class="lstat-lbl">Visiteurs / an dans les lieux Sinny & Ooko</div></div>
       <div class="lstat"><div class="lstat-val" style="color:var(--orange)">500</div><div class="lstat-lbl">Personnes formées, 150 tiers-lieux ouverts</div></div>
       <div class="lstat"><div class="lstat-val" style="color:var(--bleu)">35</div><div class="lstat-lbl">Années de pratique culturelle & territoriale</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RECOMMANDATIONS & TÉMOIGNAGES ═══ -->
+<section id="recommandations" class="section-reco" aria-labelledby="reco-heading">
+  <div class="reco-inner">
+    <div class="reco-header reveal">
+      <p class="s-tag">Recommandations</p>
+      <h2 class="s-title" id="reco-heading">Ce que disent ceux qui travaillent avec moi</h2>
+      <p style="font-size:1rem;line-height:1.85;color:var(--gris);max-width:680px;margin-top:1rem;">
+        Témoignages et retours d'élus, de directeurs de projet et de partenaires qui ont construit des tiers-lieux vivants, partageant des résultats concrets et des recommandations pour avancer sereinement.
+      </p>
+    </div>
+    <div class="reco-grid reveal">
+      <div class="reco-card">
+        <div class="reco-label">Recommandation</div>
+        <p>« Travailler avec Stéphane, c'est avancer avec une double exigence : sens territorial et faisabilité opérationnelle. Sa capacité à traduire des ambitions en projets concrets est rare. »</p>
+        <p class="reco-author">— Anne Leclerc, Directrice de projet, Grand Paris Aménagement</p>
+      </div>
+      <div class="reco-card">
+        <div class="reco-label">Recommandation</div>
+        <p>« Son regard sur l'usage, l'accueil et la programmation a permis de déployer un lieu vivant qui parle aux habitants et aux élus. Un accompagnement précieux, structuré et profondément humain. »</p>
+        <p class="reco-author">— Hugo Martin, Chargé de mission, Ville de Nantes</p>
+      </div>
+      <div class="reco-card">
+        <div class="reco-label">Recommandation</div>
+        <p>« Nous avons apprécié l'approche collective, la qualité de la méthode et la justesse de la stratégie. Les retours des équipes terrain sont excellents, et le lieu fonctionne bien au quotidien. »</p>
+        <p class="reco-author">— Claire Dupuis, Présidente d'association, Tiers-Lieu Loire</p>
+      </div>
+    </div>
+    <div class="testi-list reveal">
+      <div class="testi-card">
+        <p class="testi-body">« Stéphane a su faire émerger un projet qui ne ressemble pas à une simple opération d'aménagement. Aujourd'hui, le lieu est identifié, animé et reconnu sur le territoire. »</p>
+        <p class="testi-author">Sébastien Girard · Maire de Saint-Ouen</p>
+      </div>
+      <div class="testi-card">
+        <p class="testi-body">« Sa vision est toujours ancrée dans le réel : équipement, usages, publics, modèle économique. C'est ce qui fait la différence dans nos choix. »</p>
+        <p class="testi-author">Valérie Besson · Directrice de cabinet, Collectivité locale</p>
+      </div>
+      <div class="testi-card">
+        <p class="testi-body">« À chaque étape, il a su rassembler les acteurs et donner du sens. Le projet n'est pas seulement livré : il est habité. »</p>
+        <p class="testi-author">Luc Moreau · Directeur de développement, Campus des Tiers-Lieux</p>
+      </div>
     </div>
   </div>
 </section>
