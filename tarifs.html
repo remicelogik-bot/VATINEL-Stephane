@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ══ SEO ══ -->
+<title>Tarifs & Missions — Stéphane Vatinel, directeur artistique de territoire</title>
+<meta name="description" content="Tarifs et formules de Stéphane Vatinel : conseil territorial, direction artistique, conférences. Expertise tiers-lieux pour collectivités et aménageurs.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.stephane-vatinel.fr/tarifs.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.stephane-vatinel.fr/tarifs.html">
+<meta property="og:title" content="Tarifs & Missions — Stéphane Vatinel">
+<meta property="og:description" content="35 ans de pratique, une expertise rare. Conseil territorial, direction artistique, conférences.">
+<meta property="og:locale" content="fr_FR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bleu:   #6AA2B9;
+  --kaki:   #708472;
+  --rose:   #C7868D;
+  --orange: #E47E3D;
+  --sauge:  #ADC9B8;
+  --peche:  #FEBE85;
+  --foret:  #266041;
+  --cel:    #C4D4A4;
+  --paille: #E6D67F;
+  --creme:  #FBF8F1;
+  --papier: #F5EFE0;
+  --encre:  #2A2820;
+  --gris:   #7A7468;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+  background:var(--creme);
+  color:var(--encre);
+  font-family:'DM Sans',sans-serif;
+  font-weight:300;
+  overflow-x:hidden;
+  cursor:none;
+}
+
+/* ── CUSTOM CURSOR ── */
+.cursor{
+  position:fixed;width:12px;height:12px;
+  background:var(--foret);border-radius:50%;
+  pointer-events:none;z-index:9999;
+  transform:translate(-50%,-50%);
+  transition:transform 0.15s ease,background 0.3s;
+  mix-blend-mode:multiply;
+}
+.cursor-ring{
+  position:fixed;width:36px;height:36px;
+  border:1.5px solid var(--orange);border-radius:50%;
+  pointer-events:none;z-index:9998;
+  transform:translate(-50%,-50%);
+  transition:transform 0.35s ease,width 0.3s,height 0.3s;
+}
+
+/* ── PAPER TEXTURE ── */
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events:none;z-index:500;opacity:0.6;
+}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:300;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.2rem 3rem;
+  background:rgba(251,248,241,0.93);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(173,201,184,0.25);
+}
+.nav-sig{
+  font-family:'Caveat',cursive;
+  font-size:1.5rem;font-weight:700;
+  color:var(--foret);letter-spacing:0.01em;line-height:1;
+}
+.nav-sub{
+  font-size:0.6rem;font-weight:500;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--gris);margin-top:2px;
+}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);text-decoration:none;
+  transition:color 0.3s;position:relative;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-3px;left:0;right:0;
+  height:1.5px;background:var(--orange);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 0.3s;
+}
+.nav-links a:hover{color:var(--foret);}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1);}
+.nav-links a.active{color:var(--foret);}
+.nav-btn{
+  background:var(--foret);color:white!important;
+  padding:0.6rem 1.4rem;border-radius:50px;
+  font-size:0.7rem!important;transition:all 0.3s!important;
+}
+.nav-btn::after{display:none!important;}
+.nav-btn:hover{background:var(--orange)!important;transform:translateY(-1px);}
+
+/* ── HAMBURGER ── */
+.burger{
+  display:none;flex-direction:column;gap:5px;
+  background:none;border:none;cursor:pointer;
+  padding:6px;z-index:400;
+}
+.burger span{
+  display:block;width:24px;height:2px;
+  background:var(--foret);border-radius:2px;
+  transition:all 0.3s ease;transform-origin:center;
+}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0);}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-nav{
+  display:none;position:fixed;inset:0;z-index:200;
+  background:rgba(251,248,241,0.98);backdrop-filter:blur(20px);
+  flex-direction:column;align-items:center;justify-content:center;
+  gap:0;opacity:0;transition:opacity 0.3s ease;
+}
+.mobile-nav.open{opacity:1;}
+.mobile-nav a{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,5vw,2.4rem);
+  font-weight:400;font-style:italic;
+  color:var(--encre);text-decoration:none;
+  padding:0.7rem 0;
+  border-bottom:1px solid rgba(173,201,184,0.2);
+  width:70%;text-align:center;transition:color 0.2s;
+}
+.mobile-nav a:hover{color:var(--orange);}
+.mobile-nav a.mob-cta{
+  font-family:'DM Sans',sans-serif;font-style:normal;
+  font-size:0.85rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;
+  background:var(--foret);color:white!important;
+  padding:1rem 2.5rem;border-radius:50px;margin-top:1.5rem;
+}
+
+/* ── PAGE HERO ── */
+.page-hero{
+  padding:9rem 4rem 6rem;
+  position:relative;overflow:hidden;
+  background:linear-gradient(135deg, var(--creme) 0%, var(--papier) 100%);
+}
+.page-hero-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:6rem;align-items:end;
+}
+.page-eyebrow{
+  font-family:'Caveat',cursive;
+  font-size:1.2rem;color:var(--orange);
+  display:flex;align-items:center;gap:0.8rem;
+  margin-bottom:1.2rem;
+}
+.page-eyebrow::before{
+  content:'';display:block;width:24px;height:2px;
+  background:var(--orange);border-radius:2px;
+}
+.page-hero h1{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(2.8rem,5vw,5rem);
+  font-weight:700;line-height:1.05;
+  letter-spacing:-0.02em;color:var(--encre);
+}
+.page-hero h1 em{font-style:italic;color:var(--foret);}
+.page-hero-desc{
+  font-size:1.05rem;line-height:1.9;
+  color:var(--gris);
+  border-left:3px solid rgba(228,126,61,0.35);
+  padding-left:1.5rem;font-style:italic;
+}
+
+/* ── STRIP ── */
+.strip{background:var(--encre);padding:1rem 0;overflow:hidden;}
+.strip-track{
+  display:flex;gap:3rem;
+  animation:marquee 22s linear infinite;
+  white-space:nowrap;width:max-content;
+}
+.strip-item{
+  display:flex;align-items:center;gap:0.7rem;
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:rgba(255,255,255,0.55);
+}
+.strip-item span{width:4px;height:4px;border-radius:50%;background:var(--peche);flex-shrink:0;}
+
+/* ── SECTION COMMONS ── */
+.s-tag{
+  font-family:'Caveat',cursive;
+  font-size:1.1rem;color:var(--orange);
+  display:flex;align-items:center;gap:0.6rem;
+  margin-bottom:0.8rem;
+}
+.s-tag::before{content:'✦';font-size:0.7rem;animation:spin 8s linear infinite;}
+.s-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,2.8vw,2.6rem);
+  font-weight:700;line-height:1.15;color:var(--encre);
+}
+.s-title em{font-style:italic;color:var(--foret);}
+
+/* ── INTRO POSITIONNEMENT ── */
+.section-intro{
+  padding:5rem 4rem 3rem;
+  max-width:1100px;margin:0 auto;
+}
+.intro-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:4rem;align-items:center;
+}
+.intro-card{
+  background:var(--foret);border-radius:24px;
+  padding:2.5rem;color:white;
+  position:relative;overflow:hidden;
+}
+.intro-card::before{
+  content:'"';
+  font-family:'Libre Baskerville',serif;
+  font-size:10rem;line-height:0.6;
+  color:rgba(255,255,255,0.08);
+  position:absolute;top:1rem;left:1.5rem;
+}
+.intro-quote{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.15rem;font-style:italic;
+  line-height:1.7;color:white;
+  position:relative;z-index:1;
+  margin-bottom:1.2rem;
+}
+.intro-source{
+  font-family:'Caveat',cursive;
+  font-size:0.95rem;color:var(--peche);
+}
+.intro-content{}
+.intro-content p{
+  font-size:1rem;line-height:1.9;color:var(--gris);margin-bottom:1.2rem;
+}
+.intro-pills{display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:1.5rem;}
+.pill{
+  background:var(--papier);
+  border:1px solid rgba(112,132,114,0.25);
+  border-radius:50px;padding:0.4rem 1rem;
+  font-size:0.78rem;color:var(--kaki);font-weight:500;
+}
+
+/* ── TARIFS SECTIONS ── */
+.section-tarifs{
+  padding:4rem 4rem 6rem;
+  position:relative;overflow:hidden;
+}
+.tarifs-inner{max-width:1100px;margin:0 auto;}
+
+/* Catégorie header */
+.cat-header{
+  display:flex;align-items:baseline;gap:1.5rem;
+  margin-bottom:2rem;
+  padding-bottom:1rem;
+  border-bottom:2px solid rgba(173,201,184,0.3);
+}
+.cat-num{
+  font-family:'Caveat',cursive;
+  font-size:3rem;font-weight:700;
+  color:rgba(38,96,65,0.15);
+  line-height:1;
+}
+.cat-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.6rem;font-weight:700;
+  color:var(--encre);
+}
+.cat-title em{font-style:italic;color:var(--foret);}
+.cat-sub{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);margin-left:auto;
+}
+
+/* Grille de formules */
+.formules-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;margin-bottom:4rem;
+}
+
+.formule{
+  background:white;border-radius:22px;
+  padding:2.2rem;
+  box-shadow:0 4px 24px rgba(44,40,32,0.06);
+  border:1.5px solid transparent;
+  transition:all 0.3s;
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+.formule::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:4px;
+  border-radius:22px 22px 0 0;
+}
+.formule:nth-child(1)::before{background:var(--bleu);}
+.formule:nth-child(2)::before{background:var(--sauge);}
+.formule:nth-child(3)::before{background:var(--orange);}
+
+.formule:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 40px rgba(44,40,32,0.12);
+  border-color:rgba(173,201,184,0.4);
+}
+
+.formule-label{
+  font-size:0.62rem;font-weight:500;
+  letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--orange);margin-bottom:0.6rem;
+}
+.formule-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.1rem;font-weight:700;
+  color:var(--encre);line-height:1.3;
+  margin-bottom:1rem;
+}
+.formule-price{
+  margin:1rem 0 1.2rem;
+  padding:1rem 0;
+  border-top:1px solid rgba(173,201,184,0.2);
+  border-bottom:1px solid rgba(173,201,184,0.2);
+}
+.formule-price-val{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.8rem;font-weight:700;
+  color:var(--foret);line-height:1;
+}
+.formule-price-unit{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--gris);margin-top:0.3rem;
+  display:block;
+}
+.formule-desc{
+  font-size:0.85rem;line-height:1.75;
+  color:var(--gris);margin-bottom:1.2rem;flex-grow:1;
+}
+.formule-includes{
+  list-style:none;
+  display:flex;flex-direction:column;gap:0.4rem;
+  margin-bottom:1.5rem;
+}
+.formule-includes li{
+  font-size:0.78rem;color:var(--encre);
+  padding-left:1.2rem;position:relative;line-height:1.5;
+}
+.formule-includes li::before{
+  content:'→';position:absolute;left:0;
+  color:var(--foret);font-size:0.65rem;top:0.15rem;
+}
+.formule-cta{
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:0.5rem;
+  background:var(--foret);color:white;
+  text-decoration:none;
+  padding:0.85rem 1.5rem;border-radius:50px;
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  transition:all 0.3s;
+  margin-top:auto;
+}
+.formule-cta:hover{background:var(--orange);transform:translateY(-2px);}
+
+/* Formule "sur devis" */
+.formule.sur-devis{
+  background:var(--papier);
+  border:1.5px dashed rgba(38,96,65,0.2);
+}
+.formule.sur-devis::before{background:var(--kaki);}
+.formule.sur-devis .formule-price-val{
+  font-size:1.3rem;color:var(--kaki);
+}
+.formule.sur-devis .formule-cta{
+  background:transparent;color:var(--foret);
+  border:1.5px solid rgba(38,96,65,0.3);
+}
+.formule.sur-devis .formule-cta:hover{
+  background:var(--foret);color:white;
+}
+
+/* Section séparateur */
+.section-sep{
+  height:1px;
+  background:linear-gradient(to right, transparent, rgba(173,201,184,0.4), transparent);
+  margin:2rem 0 5rem;
+  max-width:1100px;margin-left:auto;margin-right:auto;
+}
+
+/* ── SECTION MISSIONS SUR MESURE ── */
+.section-mesure{
+  padding:5rem 4rem;
+  background:var(--encre);
+  position:relative;overflow:hidden;
+}
+.mesure-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1.2fr;
+  gap:5rem;align-items:center;
+}
+.mesure-content h2{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,3vw,2.8rem);
+  font-weight:700;line-height:1.15;
+  color:white;margin-bottom:1.5rem;
+}
+.mesure-content h2 em{font-style:italic;color:var(--peche);}
+.mesure-content p{
+  font-size:1rem;line-height:1.85;
+  color:rgba(255,255,255,0.55);
+  margin-bottom:2rem;
+}
+.mesure-exemples{
+  display:flex;flex-direction:column;gap:0.8rem;
+  margin-bottom:2.5rem;
+}
+.mesure-ex{
+  display:flex;align-items:center;gap:0.8rem;
+  font-size:0.9rem;color:rgba(255,255,255,0.7);
+}
+.mesure-ex::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--peche);flex-shrink:0;
+}
+.btn-mesure{
+  display:inline-flex;align-items:center;gap:0.6rem;
+  background:var(--orange);color:white;
+  text-decoration:none;
+  padding:1rem 2.5rem;border-radius:50px;
+  font-size:0.78rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(228,126,61,0.3);
+}
+.btn-mesure:hover{background:white;color:var(--foret);transform:translateY(-2px);}
+
+/* Grille types missions sur mesure */
+.mesure-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:1rem;
+}
+.mesure-card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:18px;padding:1.5rem;
+}
+.mesure-card-icon{font-size:1.4rem;margin-bottom:0.6rem;}
+.mesure-card-title{
+  font-size:0.9rem;font-weight:500;
+  color:white;margin-bottom:0.4rem;
+}
+.mesure-card-desc{
+  font-size:0.75rem;line-height:1.6;
+  color:rgba(255,255,255,0.4);
+}
+
+/* ── FAQ TARIFS ── */
+.section-faq{
+  padding:5rem 4rem;
+  background:var(--papier);
+  position:relative;
+}
+.faq-inner{max-width:820px;margin:0 auto;}
+.faq-header{text-align:center;margin-bottom:3rem;}
+.faq-list{display:flex;flex-direction:column;gap:1px;background:rgba(112,132,114,0.1);border-radius:20px;overflow:hidden;}
+.faq-item{background:white;padding:1.8rem 2rem;cursor:pointer;transition:background 0.3s;}
+.faq-item:hover{background:var(--creme);}
+.faq-q{
+  font-family:'Libre Baskerville',serif;
+  font-size:1rem;font-weight:700;
+  color:var(--encre);
+  display:flex;justify-content:space-between;align-items:center;
+  gap:1rem;
+}
+.faq-q::after{
+  content:'→';font-family:'DM Sans',sans-serif;
+  font-size:0.85rem;color:var(--orange);
+  flex-shrink:0;
+}
+.faq-a{
+  font-size:0.9rem;line-height:1.75;
+  color:var(--gris);margin-top:0.8rem;
+}
+
+/* ── CTA FINAL ── */
+.section-cta{
+  padding:5rem 4rem;
+  position:relative;overflow:hidden;
+}
+.cta-inner{
+  max-width:820px;margin:0 auto;
+  text-align:center;
+}
+.cta-inner h2{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(2rem,3.5vw,3rem);
+  font-weight:700;line-height:1.2;
+  color:var(--encre);margin-bottom:1.2rem;
+}
+.cta-inner h2 em{font-style:italic;color:var(--foret);}
+.cta-inner p{
+  font-size:1rem;line-height:1.85;
+  color:var(--gris);margin-bottom:2.5rem;
+  max-width:600px;margin-left:auto;margin-right:auto;
+}
+.cta-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
+.btn-cta-main{
+  display:inline-flex;align-items:center;gap:0.6rem;
+  background:var(--foret);color:white;
+  text-decoration:none;
+  padding:1.1rem 2.5rem;border-radius:50px;
+  font-size:0.78rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(38,96,65,0.25);
+}
+.btn-cta-main:hover{background:var(--orange);transform:translateY(-2px);}
+.btn-cta-ghost{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  color:var(--foret);text-decoration:none;
+  font-size:0.78rem;font-weight:500;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:1.1rem 1.8rem;
+  border:1.5px solid rgba(38,96,65,0.25);
+  border-radius:50px;transition:all 0.3s;
+}
+.btn-cta-ghost:hover{border-color:var(--foret);background:rgba(38,96,65,0.04);}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--encre);color:rgba(255,255,255,0.5);
+  padding:2.5rem 4rem;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.footer-sig{font-family:'Caveat',cursive;font-size:1.4rem;color:white;}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:rgba(255,255,255,0.4);text-decoration:none;
+  transition:color 0.3s;
+}
+.footer-links a:hover{color:var(--peche);}
+.footer-copy{font-size:0.62rem;color:rgba(255,255,255,0.25);}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.8s ease,transform 0.8s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+@keyframes float1{0%,100%{transform:translateY(0) rotate(0deg);}40%{transform:translateY(-14px) rotate(2.5deg);}70%{transform:translateY(6px) rotate(-1.5deg);}}
+@keyframes float2{0%,100%{transform:translateY(0);}30%{transform:translateY(10px);}70%{transform:translateY(-8px);}}
+@keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ── TABLETTE ── */
+@media(min-width:769px) and (max-width:1024px){
+  nav{padding:1.1rem 2rem;}
+  .page-hero{padding:8rem 2.5rem 4rem;}
+  .page-hero-inner{grid-template-columns:1fr;gap:2rem;}
+  .section-intro,.section-tarifs,.section-faq,.section-cta{padding:4rem 2.5rem;}
+  .section-mesure{padding:4rem 2.5rem;}
+  .intro-grid{grid-template-columns:1fr;gap:2rem;}
+  .formules-grid{grid-template-columns:1fr 1fr;}
+  .mesure-inner{grid-template-columns:1fr;gap:3rem;}
+  footer{padding:2.5rem 2rem;}
+}
+
+/* ── MOBILE ── */
+@media(max-width:768px){
+  .burger{display:flex;}
+  .mobile-nav{display:flex;}
+  nav{padding:1rem 1.5rem;}
+  .nav-links{display:none;}
+  .page-hero{padding:7rem 1.5rem 3rem;}
+  .page-hero-inner{grid-template-columns:1fr;gap:2rem;}
+  .section-intro,.section-tarifs,.section-faq,.section-cta{padding:3rem 1.5rem;}
+  .section-mesure{padding:3rem 1.5rem;}
+  .intro-grid{grid-template-columns:1fr;gap:2rem;}
+  .formules-grid{grid-template-columns:1fr;}
+  .mesure-inner{grid-template-columns:1fr;gap:2.5rem;}
+  .mesure-grid{grid-template-columns:1fr;}
+  .cta-actions{flex-direction:column;align-items:center;}
+  footer{flex-direction:column;gap:1.5rem;text-align:center;padding:2rem 1.5rem;}
+  .footer-links{flex-wrap:wrap;justify-content:center;gap:1.2rem;}
+}
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="ring"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav aria-label="Navigation principale">
+  <a href="index.html" style="text-decoration:none;">
+    <div class="nav-sig">Stéphane Vatinel</div>
+    <div class="nav-sub">Directeur artistique de territoire</div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html#about">Vision</a></li>
+    <li><a href="index.html#impact">Impact</a></li>
+    <li><a href="index.html#lieux">Lieux</a></li>
+    <li><a href="index.html#mouvement">Mouvement</a></li>
+    <li><a href="index.html#methode">Méthode</a></li>
+    <li><a href="medias.html">Médias</a></li>
+    <li><a href="tarifs.html" class="active">Tarifs</a></li>
+    <li><a href="index.html#contact" class="nav-btn">Construisons ensemble</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Menu mobile -->
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <a href="index.html#about" onclick="closeMobileNav()">Vision</a>
+  <a href="index.html#impact" onclick="closeMobileNav()">Impact</a>
+  <a href="index.html#lieux" onclick="closeMobileNav()">Lieux</a>
+  <a href="index.html#mouvement" onclick="closeMobileNav()">Mouvement</a>
+  <a href="index.html#methode" onclick="closeMobileNav()">Méthode</a>
+  <a href="medias.html" onclick="closeMobileNav()">Médias</a>
+  <a href="tarifs.html" onclick="closeMobileNav()">Tarifs</a>
+  <a href="index.html#contact" class="mob-cta" onclick="closeMobileNav()">Construisons ensemble</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══ -->
+<section class="page-hero" aria-label="Tarifs et missions de Stéphane Vatinel">
+
+  <!-- Botanical top-right -->
+  <svg aria-hidden="true" style="position:absolute;top:-20px;right:-30px;width:340px;opacity:0.55;pointer-events:none;animation:float1 9s ease-in-out infinite" viewBox="0 0 340 420" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="170" cy="190" rx="100" ry="145" fill="#ADC9B8" opacity="0.5" transform="rotate(8 170 190)"/>
+    <ellipse cx="148" cy="162" rx="62" ry="96" fill="#266041" opacity="0.4" transform="rotate(8 148 162)"/>
+    <ellipse cx="164" cy="118" rx="24" ry="36" fill="#F5EFE0" opacity="0.9" transform="rotate(8 164 118)"/>
+    <ellipse cx="186" cy="188" rx="18" ry="27" fill="#F5EFE0" opacity="0.9" transform="rotate(8 186 188)"/>
+    <path d="M162 310 Q160 248 158 178" stroke="#266041" stroke-width="3" fill="none" opacity="0.35"/>
+    <ellipse cx="45" cy="270" rx="42" ry="62" fill="#E6D67F" opacity="0.6" transform="rotate(22 45 270)"/>
+    <circle cx="278" cy="62" r="20" fill="#E47E3D" opacity="0.8"/>
+    <circle cx="262" cy="47" r="11" fill="#FEBE85" opacity="0.9"/>
+    <circle cx="295" cy="49" r="9" fill="#FEBE85" opacity="0.85"/>
+    <circle cx="306" cy="230" r="9" fill="#C7868D" opacity="0.85"/>
+    <circle cx="318" cy="214" r="6" fill="#C7868D" opacity="0.75"/>
+    <ellipse cx="80" cy="45" rx="18" ry="30" fill="#C4D4A4" opacity="0.7" transform="rotate(-45 80 45)"/>
+  </svg>
+
+  <!-- Botanical bottom-left -->
+  <svg aria-hidden="true" style="position:absolute;bottom:-10px;left:4%;width:200px;opacity:0.4;pointer-events:none;animation:float2 12s ease-in-out infinite" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="100" cy="80" rx="75" ry="48" fill="#ADC9B8" opacity="0.55" transform="rotate(10 100 80)"/>
+    <ellipse cx="55" cy="58" rx="44" ry="62" fill="#E6D67F" opacity="0.5" transform="rotate(-18 55 58)"/>
+    <circle cx="35" cy="22" r="11" fill="#E47E3D" opacity="0.75"/>
+    <circle cx="175" cy="135" r="8" fill="#C7868D" opacity="0.8"/>
+  </svg>
+
+  <div class="page-hero-inner" style="opacity:0;animation:fadeUp 0.8s ease forwards 0.3s;">
+    <div>
+      <p class="page-eyebrow">Investissement & expertise</p>
+      <h1>Tarifs<br>& <em>Missions</em></h1>
+    </div>
+    <p class="page-hero-desc">
+      35 ans de pratique, une expertise rare sur le marché. Nos honoraires reflètent la valeur d'un accompagnement qui transforme durablement un territoire — et évite les erreurs coûteuses.
+    </p>
+  </div>
+</section>
+
+<!-- ═══ STRIP ═══ -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <div class="strip-item"><span></span>Direction artistique</div>
+    <div class="strip-item"><span></span>Conseil territorial</div>
+    <div class="strip-item"><span></span>Maîtrise d'usage</div>
+    <div class="strip-item"><span></span>Conférences</div>
+    <div class="strip-item"><span></span>Formation tiers-lieux</div>
+    <div class="strip-item"><span></span>Ingénierie économique</div>
+    <div class="strip-item"><span></span>Direction artistique</div>
+    <div class="strip-item"><span></span>Conseil territorial</div>
+    <div class="strip-item"><span></span>Maîtrise d'usage</div>
+    <div class="strip-item"><span></span>Conférences</div>
+    <div class="strip-item"><span></span>Formation tiers-lieux</div>
+    <div class="strip-item"><span></span>Ingénierie économique</div>
+  </div>
+</div>
+
+<!-- ═══ INTRO POSITIONNEMENT ═══ -->
+<div class="section-intro">
+  <div class="intro-grid reveal">
+    <div class="intro-card">
+      <p class="intro-quote">Ce que nous apportons, c'est l'expérience de 35 ans — les erreurs faites, les modèles testés, les lieux qui ont tenu dans le temps. Ça ne s'improvise pas.</p>
+      <p class="intro-source">✦ Stéphane Vatinel</p>
+    </div>
+    <div class="intro-content">
+      <p class="s-tag">Pourquoi ces tarifs</p>
+      <p>Un tiers-lieu mal conçu coûte bien plus cher qu'un bon accompagnement. Chaque euro investi dans la direction artistique et la stratégie en amont évite des années de fonctionnement difficile.</p>
+      <p>Nos honoraires sont ceux d'experts reconnus nationalement, comparables aux cabinets spécialisés — avec en plus une pratique de terrain irremplaçable.</p>
+      <div class="intro-pills">
+        <span class="pill">✦ Tarifs HT</span>
+        <span class="pill">📄 Devis sur mesure</span>
+        <span class="pill">🏛️ Éligible subventions</span>
+        <span class="pill">🤝 Missions longues négociables</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ CATÉGORIE 1 — CONSEIL TERRITORIAL ═══ -->
+<div class="section-tarifs">
+  <div class="tarifs-inner">
+
+    <div class="cat-header reveal">
+      <div class="cat-num">01</div>
+      <div>
+        <h2 class="cat-title">Conseil en stratégie <em>territoriale</em></h2>
+      </div>
+      <span class="cat-sub">Diagnostic · Vision · Stratégie</span>
+    </div>
+
+    <div class="formules-grid reveal">
+
+      <div class="formule">
+        <div class="formule-label">Formule Découverte</div>
+        <div class="formule-title">Diagnostic de faisabilité</div>
+        <div class="formule-desc">Première analyse de votre projet : contexte territorial, faisabilité, premières orientations stratégiques. Idéal pour cadrer avant d'engager.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 3 500 €</div>
+          <span class="formule-price-unit">HT · Forfait · 2 à 3 jours</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Analyse du contexte territorial</li>
+          <li>Entretiens avec les parties prenantes</li>
+          <li>Note de faisabilité et recommandations</li>
+          <li>Restitution en présentiel ou visio</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule">
+        <div class="formule-label">Formule Stratégie</div>
+        <div class="formule-title">Vision & positionnement de lieu</div>
+        <div class="formule-desc">Définir l'identité, le récit et la stratégie complète d'un futur tiers-lieu. De l'analyse au document de vision livrable aux élus.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 8 500 €</div>
+          <span class="formule-price-unit">HT · Forfait · 3 à 6 semaines</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Diagnostic territorial approfondi</li>
+          <li>Définition de l'identité et du récit</li>
+          <li>Cartographie des publics et usages</li>
+          <li>Document de vision & pitch élus</li>
+          <li>2 allers-retours inclus</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule sur-devis">
+        <div class="formule-label">Mission longue</div>
+        <div class="formule-title">Accompagnement stratégique global</div>
+        <div class="formule-desc">Suivi complet de A à Z : de la vision à l'ouverture. Pour les projets complexes qui nécessitent une présence dans la durée.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">Tarif sur devis</div>
+          <span class="formule-price-unit">Selon périmètre & durée</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Toutes les étapes de la formule Stratégie</li>
+          <li>Suivi jusqu'à l'ouverture</li>
+          <li>Formation des équipes incluse</li>
+          <li>Comités de pilotage réguliers</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Demander un devis →</a>
+      </div>
+
+    </div>
+
+    <div class="section-sep"></div>
+
+    <!-- CATÉGORIE 2 — DIRECTION ARTISTIQUE -->
+    <div class="cat-header reveal">
+      <div class="cat-num">02</div>
+      <div>
+        <h2 class="cat-title">Direction artistique <em>de projet</em></h2>
+      </div>
+      <span class="cat-sub">Programmation · Identité · Activation</span>
+    </div>
+
+    <div class="formules-grid reveal">
+
+      <div class="formule">
+        <div class="formule-label">Mission ponctuelle</div>
+        <div class="formule-title">Audit artistique & recommandations</div>
+        <div class="formule-desc">Évaluation de la programmation, de l'atmosphère et de l'accueil d'un lieu existant. Recommandations actionnables et priorisées.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 4 500 €</div>
+          <span class="formule-price-unit">HT · Forfait · 1 semaine</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Visite immersive du lieu</li>
+          <li>Entretiens équipes et usagers</li>
+          <li>Rapport d'audit détaillé</li>
+          <li>Plan d'action prioritaire</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule">
+        <div class="formule-label">Direction de projet</div>
+        <div class="formule-title">Direction artistique complète</div>
+        <div class="formule-desc">Pilotage de l'identité artistique d'un lieu de l'ouverture à la maturité. Programmation, atmosphère, accueil, équipe : tout est coordonné.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 15 000 €</div>
+          <span class="formule-price-unit">HT · Forfait annuel ou mission</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Définition de la ligne artistique</li>
+          <li>Construction de la programmation</li>
+          <li>Recrutement et formation des équipes</li>
+          <li>Suivi mensuel et ajustements</li>
+          <li>Reporting pour les élus et financeurs</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule sur-devis">
+        <div class="formule-label">Maîtrise d'usage</div>
+        <div class="formule-title">Conception & programmation en amont</div>
+        <div class="formule-desc">Intervention avant l'architecte pour définir les usages réels. Ce que l'espace doit permettre, avant de décider comment il doit être construit.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">Tarif sur devis</div>
+          <span class="formule-price-unit">Selon complexité du projet</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Ateliers de co-conception avec habitants</li>
+          <li>Programme d'usages livrable</li>
+          <li>Brief pour les architectes</li>
+          <li>Suivi phase conception si souhaité</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Demander un devis →</a>
+      </div>
+
+    </div>
+
+    <div class="section-sep"></div>
+
+    <!-- CATÉGORIE 3 — CONFÉRENCES & FORMATION -->
+    <div class="cat-header reveal">
+      <div class="cat-num">03</div>
+      <div>
+        <h2 class="cat-title">Conférences <em>& Formation</em></h2>
+      </div>
+      <span class="cat-sub">Partage · Transmission · Campus</span>
+    </div>
+
+    <div class="formules-grid reveal">
+
+      <div class="formule">
+        <div class="formule-label">Intervention</div>
+        <div class="formule-title">Conférence ou keynote</div>
+        <div class="formule-desc">Intervention inspirante sur les tiers-lieux, la transition écologique par les espaces, ou la stratégie territoriale culturelle. Adapté à votre contexte.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 1 500 €</div>
+          <span class="formule-price-unit">HT · Demi-journée ou soirée</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Préparation et échanges en amont</li>
+          <li>Conférence de 45 à 90 min</li>
+          <li>Temps de questions-réponses</li>
+          <li>Frais de déplacement en sus</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule">
+        <div class="formule-label">Formation</div>
+        <div class="formule-title">Atelier immersif tiers-lieux</div>
+        <div class="formule-desc">Formation intensive pour équipes d'élus, de porteurs de projets ou de professionnels souhaitant comprendre et créer des tiers-lieux viables.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">À partir de 3 500 €</div>
+          <span class="formule-price-unit">HT · 1 à 2 jours · Groupe</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Jusqu'à 15 participants</li>
+          <li>Contenus adaptés à votre contexte</li>
+          <li>Exercices pratiques et cas réels</li>
+          <li>Support de formation livré</li>
+          <li>Suivi post-formation possible</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Nous contacter →</a>
+      </div>
+
+      <div class="formule sur-devis">
+        <div class="formule-label">Campus des Tiers-Lieux</div>
+        <div class="formule-title">Programme immersif 40h</div>
+        <div class="formule-desc">Le programme complet du Campus des Tiers-Lieux : 40 heures pour créer et gérer un tiers-lieu culturel. 500 personnes formées, 150 lieux ouverts.</div>
+        <div class="formule-price">
+          <div class="formule-price-val">Tarif sur devis</div>
+          <span class="formule-price-unit">Financement OPCO possible</span>
+        </div>
+        <ul class="formule-includes">
+          <li>Programme complet 40h</li>
+          <li>Incubation de projets</li>
+          <li>Réseau national des alumni</li>
+          <li>Éligible financement formation</li>
+        </ul>
+        <a href="index.html#contact" class="formule-cta">Demander un devis →</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══ MISSIONS SUR MESURE ═══ -->
+<section class="section-mesure" aria-label="Missions sur mesure">
+  <svg aria-hidden="true" style="position:absolute;right:-30px;top:10%;width:260px;opacity:0.06;pointer-events:none" viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="130" cy="170" rx="95" ry="138" fill="white" transform="rotate(-5 130 170)"/>
+    <ellipse cx="108" cy="142" rx="58" ry="90" fill="white" opacity="0.7" transform="rotate(-5 108 142)"/>
+    <circle cx="210" cy="55" r="24" fill="white" opacity="0.8"/>
+    <circle cx="192" cy="38" r="13" fill="white"/>
+    <circle cx="228" cy="40" r="10" fill="white" opacity="0.9"/>
+  </svg>
+
+  <div class="mesure-inner">
+    <div class="mesure-content reveal">
+      <p style="font-family:'Caveat',cursive;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--peche);margin-bottom:1.2rem;">Projets complexes</p>
+      <h2>Votre projet est <em>unique</em><br>votre mission aussi</h2>
+      <p>Certains projets dépassent les formules standard. Réhabilitation de grande envergure, accompagnement multi-sites, co-direction artistique sur plusieurs années — nous construisons une mission sur mesure.</p>
+      <div class="mesure-exemples">
+        <div class="mesure-ex">Projet de reconversion d'un site industriel majeur</div>
+        <div class="mesure-ex">Stratégie culturelle pour une agglomération</div>
+        <div class="mesure-ex">Direction artistique partagée sur 3 à 5 ans</div>
+        <div class="mesure-ex">Essaimage d'un modèle tiers-lieu sur un réseau de communes</div>
+        <div class="mesure-ex">Accompagnement d'un opérateur privé en transition ESS</div>
+      </div>
+      <a href="index.html#contact" class="btn-mesure">Parlons de votre projet →</a>
+    </div>
+
+    <div class="mesure-grid reveal">
+      <div class="mesure-card">
+        <div class="mesure-card-icon">🗺️</div>
+        <div class="mesure-card-title">Multi-sites</div>
+        <div class="mesure-card-desc">Accompagnement d'un réseau de lieux sur un même territoire</div>
+      </div>
+      <div class="mesure-card">
+        <div class="mesure-card-icon">⏳</div>
+        <div class="mesure-card-title">Long terme</div>
+        <div class="mesure-card-desc">Missions pluriannuelles avec révision tarifaire annuelle</div>
+      </div>
+      <div class="mesure-card">
+        <div class="mesure-card-icon">🤝</div>
+        <div class="mesure-card-title">Co-direction</div>
+        <div class="mesure-card-desc">Intégration dans les équipes existantes en position de direction</div>
+      </div>
+      <div class="mesure-card">
+        <div class="mesure-card-icon">🌍</div>
+        <div class="mesure-card-title">International</div>
+        <div class="mesure-card-desc">Projets hors France sur demande, tarification adaptée</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section class="section-faq" aria-label="Questions fréquentes sur les tarifs">
+  <div class="faq-inner">
+    <div class="faq-header reveal">
+      <p class="s-tag" style="justify-content:center">Questions fréquentes</p>
+      <h2 class="s-title" style="text-align:center">Ce qu'on nous <em>demande souvent</em></h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <div class="faq-q">Ces missions sont-elles éligibles à des subventions ?</div>
+        <div class="faq-a">Oui, dans de nombreux cas. Les missions de conseil territorial peuvent être intégrées dans des appels à projets ANCT, ADEME, Régions, ou dans des enveloppes de développement culturel des collectivités. Nous vous accompagnons dans l'identification des dispositifs adaptés.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Comment se passe le financement pour les collectivités ?</div>
+        <div class="faq-a">Nous établissons un devis formel compatible avec les procédures de marchés publics. Pour les missions inférieures à 40 000 € HT, la consultation directe est possible. Au-delà, nous pouvons répondre à des appels d'offres ou des marchés négociés.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Travaillez-vous avec des porteurs de projets privés ou associatifs ?</div>
+        <div class="faq-a">Oui. Nos missions s'adressent aussi bien aux collectivités qu'aux aménageurs privés, aux promoteurs immobiliers engagés dans la transition, aux associations gestionnaires de lieux ou aux bailleurs sociaux. Le modèle tarifaire est adapté au type de structure.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Peut-on commencer par une petite mission avant de s'engager davantage ?</div>
+        <div class="faq-a">Absolument. La formule "Diagnostic de faisabilité" est conçue pour ça. Elle permet de tester la collaboration, de cadrer le projet et de décider ensemble de la suite — sans engagement sur des missions plus longues.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Les tarifs sont-ils négociables pour les structures en difficulté ?</div>
+        <div class="faq-a">Nous examinons chaque situation au cas par cas. Pour des projets portés par des associations ou des territoires ruraux aux ressources limitées, des arrangements peuvent être trouvés — notamment si le projet est emblématique ou innovant.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA FINAL ═══ -->
+<section class="section-cta" aria-label="Prendre contact">
+  <svg aria-hidden="true" style="position:absolute;right:8%;top:10%;width:180px;opacity:0.2;pointer-events:none;animation:float1 9s ease-in-out infinite" viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="90" cy="120" rx="65" ry="95" fill="#ADC9B8" transform="rotate(6 90 120)"/>
+    <ellipse cx="72" cy="97" rx="40" ry="62" fill="#266041" opacity="0.7" transform="rotate(6 72 97)"/>
+    <circle cx="145" cy="35" r="15" fill="#E47E3D" opacity="0.85"/>
+  </svg>
+
+  <div class="cta-inner reveal">
+    <p class="s-tag" style="justify-content:center">Prochaine étape</p>
+    <h2>Un projet en tête ?<br><em>Parlons-en.</em></h2>
+    <p>La première conversation ne coûte rien. En 30 minutes, nous comprenons votre territoire et vos enjeux — et vous repartez avec une idée claire de ce qu'un accompagnement peut apporter.</p>
+    <div class="cta-actions">
+      <a href="index.html#contact" class="btn-cta-main">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Démarrons ensemble
+      </a>
+      <a href="medias.html" class="btn-cta-ghost">Voir les réalisations →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-sig">Stéphane Vatinel</div>
+  <ul class="footer-links">
+    <li><a href="index.html#about">Vision</a></li>
+    <li><a href="index.html#impact">Impact</a></li>
+    <li><a href="index.html#lieux">Lieux</a></li>
+    <li><a href="index.html#mouvement">Mouvement</a></li>
+    <li><a href="index.html#methode">Méthode</a></li>
+    <li><a href="medias.html">Médias</a></li>
+    <li><a href="tarifs.html">Tarifs</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Stéphane Vatinel</div>
+</footer>
+
+<script>
+// ── TOUCH DETECTION ──
+const isTouchDevice = window.matchMedia('(hover:none)').matches;
+const cur = document.getElementById('cur');
+const ring = document.getElementById('ring');
+
+if (!isTouchDevice) {
+  document.addEventListener('mousemove', e => {
+    cur.style.left = e.clientX + 'px';
+    cur.style.top = e.clientY + 'px';
+    setTimeout(() => {
+      ring.style.left = e.clientX + 'px';
+      ring.style.top = e.clientY + 'px';
+    }, 60);
+  });
+  document.querySelectorAll('a,button,.formule,.faq-item').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      ring.style.width = '56px'; ring.style.height = '56px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1.5)';
+      cur.style.background = 'var(--orange)';
+    });
+    el.addEventListener('mouseleave', () => {
+      ring.style.width = '36px'; ring.style.height = '36px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1)';
+      cur.style.background = 'var(--foret)';
+    });
+  });
+} else {
+  if(cur) cur.style.display = 'none';
+  if(ring) ring.style.display = 'none';
+  document.body.style.cursor = 'auto';
+}
+
+// ── HAMBURGER ──
+const burger = document.getElementById('burger');
+const mobileNav = document.getElementById('mobile-nav');
+function openMobileNav(){burger.classList.add('open');mobileNav.classList.add('open');mobileNav.setAttribute('aria-hidden','false');burger.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';}
+function closeMobileNav(){burger.classList.remove('open');mobileNav.classList.remove('open');mobileNav.setAttribute('aria-hidden','true');burger.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+burger.addEventListener('click',()=>{burger.classList.contains('open')?closeMobileNav():openMobileNav();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mobileNav.classList.contains('open'))closeMobileNav();});
+
+// ── SCROLL REVEAL ──
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver((entries)=>{
+  entries.forEach((entry,i)=>{
+    if(entry.isIntersecting){
+      setTimeout(()=>entry.target.classList.add('visible'),i*80);
+      obs.unobserve(entry.target);
+    }
+  });
+},{threshold:0.07});
+reveals.forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
