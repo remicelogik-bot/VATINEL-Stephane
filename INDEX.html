@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ══ SEO PRIMAIRE ══ -->
+<title>Stéphane Vatinel — Directeur artistique de territoire & expert tiers-lieux</title>
+<meta name="description" content="Depuis 35 ans, Stéphane Vatinel transforme friches urbaines et patrimoine délaissé en tiers-lieux vivants. Direction artistique, stratégie territoriale, ingénierie de modèle économique pour collectivités et aménageurs.">
+<meta name="keywords" content="tiers-lieux, directeur artistique territoire, friche urbaine, stratégie territoriale, direction artistique culturelle, création tiers-lieu, Sinny Ooko, Campus des Tiers-Lieux, transition écologique, ESS, collectivités locales, aménagement urbain">
+<meta name="author" content="Stéphane Vatinel">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.stephane-vatinel.fr/">
+
+<!-- ══ OPEN GRAPH (LinkedIn, Facebook) ══ -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.stephane-vatinel.fr/">
+<meta property="og:title" content="Stéphane Vatinel — Directeur artistique de territoire">
+<meta property="og:description" content="35 ans de pratique collective : de Glazart à la Cité Fertile, de La REcyclerie au Campus des Tiers-Lieux. Accompagnement de collectivités et aménageurs pour créer des lieux vivants.">
+<meta property="og:image" content="https://www.stephane-vatinel.fr/og-image.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Stéphane Vatinel">
+
+<!-- ══ TWITTER CARD ══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stéphane Vatinel — Directeur artistique de territoire">
+<meta name="twitter:description" content="35 ans de pratique collective. Tiers-lieux, friches urbaines, stratégie territoriale.">
+
+<!-- ══ SCHEMA.ORG — Person + ProfessionalService ══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.stephane-vatinel.fr/#person",
+      "name": "Stéphane Vatinel",
+      "jobTitle": "Directeur artistique de territoire",
+      "description": "Expert en création de tiers-lieux et en stratégie culturelle territoriale depuis 1992. Fondateur de Sinny & Ooko et du Campus des Tiers-Lieux.",
+      "knowsAbout": ["tiers-lieux", "direction artistique", "stratégie territoriale", "économie sociale et solidaire", "transition écologique", "friche urbaine", "aménagement culturel"],
+      "url": "https://www.stephane-vatinel.fr/",
+      "sameAs": [
+        "https://www.linkedin.com/in/stephane-vatinel"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Campus des Tiers-Lieux",
+        "url": "https://www.sinnyooko.com/le-campus-des-tiers-lieux/"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.stephane-vatinel.fr/#service",
+      "name": "Stéphane Vatinel — Direction artistique & conseil territorial",
+      "description": "Direction artistique de territoire, conseil en stratégie culturelle, maîtrise d'usage, ingénierie de modèle économique pour tiers-lieux et espaces hybrides.",
+      "provider": {"@id": "https://www.stephane-vatinel.fr/#person"},
+      "serviceType": ["Direction artistique", "Conseil territorial", "Maîtrise d'usage", "Ingénierie de modèle économique", "Formation tiers-lieux", "Conférences"],
+      "areaServed": {
+        "@type": "Country",
+        "name": "France"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bleu:   #6AA2B9;
+  --kaki:   #708472;
+  --rose:   #C7868D;
+  --orange: #E47E3D;
+  --sauge:  #ADC9B8;
+  --peche:  #FEBE85;
+  --foret:  #266041;
+  --cel:    #C4D4A4;
+  --paille: #E6D67F;
+  --creme:  #FBF8F1;
+  --papier: #F5EFE0;
+  --encre:  #2A2820;
+  --gris:   #7A7468;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+  background: var(--creme);
+  color: var(--encre);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* ── CUSTOM CURSOR ── */
+.cursor{
+  position:fixed;width:12px;height:12px;
+  background:var(--foret);border-radius:50%;
+  pointer-events:none;z-index:9999;
+  transform:translate(-50%,-50%);
+  transition:transform 0.15s ease, background 0.3s;
+  mix-blend-mode:multiply;
+}
+.cursor-ring{
+  position:fixed;width:36px;height:36px;
+  border:1.5px solid var(--orange);border-radius:50%;
+  pointer-events:none;z-index:9998;
+  transform:translate(-50%,-50%);
+  transition:transform 0.35s ease, width 0.3s, height 0.3s;
+}
+
+/* ── PAPER TEXTURE OVERLAY ── */
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events:none;z-index:500;opacity:0.6;
+}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:300;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.2rem 3rem;
+  background:rgba(251,248,241,0.93);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(173,201,184,0.25);
+}
+
+.nav-sig{
+  font-family:'Caveat',cursive;
+  font-size:1.5rem;
+  font-weight:700;
+  color:var(--foret);
+  letter-spacing:0.01em;
+  line-height:1;
+}
+
+.nav-sub{
+  font-size:0.6rem;
+  font-weight:500;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+  color:var(--gris);
+  margin-top:2px;
+}
+
+.nav-links{
+  display:flex;gap:2rem;list-style:none;
+}
+
+.nav-links a{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);text-decoration:none;
+  transition:color 0.3s;position:relative;
+}
+
+.nav-links a::after{
+  content:'';position:absolute;bottom:-3px;left:0;right:0;
+  height:1.5px;background:var(--orange);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 0.3s;
+}
+
+.nav-links a:hover{color:var(--foret);}
+.nav-links a:hover::after{transform:scaleX(1);}
+
+.nav-btn{
+  background:var(--foret);color:white!important;
+  padding:0.6rem 1.4rem;border-radius:50px;
+  font-size:0.7rem!important;
+  transition:all 0.3s!important;
+}
+.nav-btn::after{display:none!important;}
+.nav-btn:hover{background:var(--orange)!important;transform:translateY(-1px);}
+
+/* ── HERO ── */
+.hero{
+  min-height:100vh;
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  overflow:hidden;
+}
+
+/* Watercolor background blobs */
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 70% 60% at 75% 40%, rgba(173,201,184,0.35) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 70% at 15% 70%, rgba(230,214,127,0.25) 0%, transparent 50%),
+    radial-gradient(ellipse 40% 50% at 85% 80%, rgba(254,190,133,0.2) 0%, transparent 50%),
+    radial-gradient(ellipse 35% 40% at 5% 15%, rgba(106,162,185,0.18) 0%, transparent 50%);
+  filter:blur(30px);
+}
+
+.hero-left{
+  position:relative;z-index:10;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:8rem 3rem 5rem 4rem;
+}
+
+.hero-eyebrow{
+  font-family:'Caveat',cursive;
+  font-size:1.3rem;
+  color:var(--orange);
+  margin-bottom:1.5rem;
+  opacity:0;
+  animation:fadeUp 0.7s ease forwards 0.3s;
+  display:flex;align-items:center;gap:0.8rem;
+}
+
+.hero-eyebrow::before{
+  content:'';display:block;
+  width:28px;height:2px;
+  background:var(--orange);border-radius:2px;
+}
+
+.hero-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(3rem,5.5vw,5.5rem);
+  font-weight:700;
+  line-height:1.05;
+  letter-spacing:-0.02em;
+  margin-bottom:2rem;
+  opacity:0;
+  animation:fadeUp 0.8s ease forwards 0.5s;
+}
+
+.hero-title .t-green{color:var(--foret);}
+.hero-title .t-italic{font-style:italic;color:var(--kaki);}
+.hero-title .t-hand{
+  font-family:'Caveat',cursive;
+  font-size:1.1em;
+  font-weight:700;
+  color:var(--orange);
+  display:block;
+  line-height:0.9;
+}
+
+.hero-body{
+  font-size:1.05rem;line-height:1.85;
+  color:var(--gris);max-width:480px;
+  margin-bottom:2.5rem;
+  opacity:0;
+  animation:fadeUp 0.8s ease forwards 0.7s;
+}
+
+.hero-actions{
+  display:flex;gap:1rem;flex-wrap:wrap;
+  opacity:0;
+  animation:fadeUp 0.8s ease forwards 0.9s;
+}
+
+.btn-main{
+  display:inline-flex;align-items:center;gap:0.6rem;
+  background:var(--foret);color:white;text-decoration:none;
+  padding:1rem 2.2rem;border-radius:50px;
+  font-size:0.78rem;font-weight:500;
+  letter-spacing:0.08em;text-transform:uppercase;
+  transition:all 0.35s;
+  box-shadow:0 4px 20px rgba(38,96,65,0.25);
+}
+
+.btn-main:hover{
+  background:var(--orange);
+  transform:translateY(-3px);
+  box-shadow:0 8px 30px rgba(228,126,65,0.35);
+}
+
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  color:var(--foret);text-decoration:none;
+  font-size:0.78rem;font-weight:500;
+  letter-spacing:0.08em;text-transform:uppercase;
+  padding:1rem 1.5rem;
+  border:1.5px solid rgba(38,96,65,0.25);
+  border-radius:50px;
+  transition:all 0.3s;
+}
+
+.btn-ghost:hover{border-color:var(--foret);background:rgba(38,96,65,0.04);}
+
+/* Hero stats */
+.hero-stats{
+  display:flex;gap:2.5rem;margin-top:3rem;
+  padding-top:2rem;
+  border-top:1px solid rgba(173,201,184,0.35);
+  opacity:0;
+  animation:fadeUp 0.8s ease forwards 1.1s;
+}
+
+.hstat-val{
+  font-family:'Libre Baskerville',serif;
+  font-size:2.2rem;font-weight:700;
+  color:var(--foret);line-height:1;
+  display:block;
+}
+
+.hstat-lbl{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--gris);margin-top:0.3rem;display:block;
+}
+
+/* Hero right — botanical illustration zone */
+.hero-right{
+  position:relative;overflow:hidden;
+}
+
+.hero-botanical-canvas{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* Floating lieux card */
+.hero-card{
+  position:absolute;bottom:6rem;left:3rem;z-index:20;
+  background:white;border-radius:20px;
+  padding:1.5rem 2rem;
+  box-shadow:0 16px 48px rgba(44,40,32,0.12), 0 2px 8px rgba(44,40,32,0.06);
+  width:240px;
+  opacity:0;
+  animation:fadeUp 1s ease forwards 1.3s;
+}
+
+.hcard-label{
+  font-family:'Caveat',cursive;
+  font-size:0.95rem;color:var(--orange);
+  margin-bottom:1rem;
+}
+
+.hcard-list{
+  display:flex;flex-direction:column;gap:0.6rem;
+  list-style:none;
+}
+
+.hcard-item{
+  display:flex;align-items:center;gap:0.6rem;
+  font-size:0.82rem;color:var(--encre);
+}
+
+.hcard-dot{
+  width:8px;height:8px;border-radius:50%;flex-shrink:0;
+}
+
+/* ── BOTANICAL SVGs ── */
+/* All botanical illustrations built as complex SVGs */
+
+/* ── WAVE DIVIDER ── */
+.wave-divider{
+  width:100%;overflow:hidden;line-height:0;
+  margin-top:-2px;
+}
+
+.wave-divider svg{display:block;width:100%;}
+
+/* ── SECTION COMMONS ── */
+.s-tag{
+  font-family:'Caveat',cursive;
+  font-size:1.1rem;color:var(--orange);
+  display:flex;align-items:center;gap:0.6rem;
+  margin-bottom:0.8rem;
+}
+
+.s-tag::before{
+  content:'✦';font-size:0.7rem;
+  animation:spin 8s linear infinite;
+}
+
+.s-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(2rem,3.5vw,3rem);
+  font-weight:700;line-height:1.15;
+  color:var(--encre);
+}
+
+.s-title em{font-style:italic;color:var(--foret);}
+.s-title .hand{font-family:'Caveat',cursive;font-size:1.1em;color:var(--orange);}
+
+/* ── ABOUT SECTION ── */
+.section-about{
+  padding:7rem 4rem;position:relative;overflow:hidden;
+}
+
+.about-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1.2fr;gap:6rem;align-items:center;
+}
+
+.about-visual{position:relative;}
+
+.about-card{
+  background:white;border-radius:24px;padding:2.5rem;
+  box-shadow:0 8px 40px rgba(44,40,32,0.08);
+  position:relative;z-index:2;
+}
+
+.about-quote{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.3rem;font-style:italic;
+  line-height:1.7;color:var(--encre);
+  margin-bottom:1.5rem;
+}
+
+.about-quote strong{color:var(--foret);font-style:normal;}
+
+.about-badge{
+  display:inline-flex;align-items:center;gap:0.6rem;
+  background:rgba(38,96,65,0.08);
+  border:1px solid rgba(38,96,65,0.15);
+  border-radius:50px;padding:0.5rem 1.2rem;
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:var(--foret);
+}
+
+.about-content{}
+
+.about-body{
+  font-size:1rem;line-height:1.9;color:var(--gris);
+  margin:1.5rem 0 2rem;
+}
+
+.about-pills{
+  display:flex;flex-wrap:wrap;gap:0.6rem;
+}
+
+.pill{
+  background:var(--papier);
+  border:1px solid rgba(112,132,114,0.25);
+  border-radius:50px;
+  padding:0.4rem 1rem;
+  font-size:0.78rem;color:var(--kaki);
+  font-weight:500;
+}
+
+/* ── GREEN SECTION (services) ── */
+.section-forest{
+  position:relative;
+  background:var(--foret);
+  padding:7rem 4rem;
+  overflow:hidden;
+}
+
+.forest-inner{max-width:1100px;margin:0 auto;}
+
+.forest-header{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:4rem;margin-bottom:4rem;align-items:end;
+}
+
+.forest-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(2rem,3.5vw,3rem);
+  font-weight:700;line-height:1.15;
+  color:white;
+}
+
+.forest-title em{font-style:italic;color:var(--peche);}
+
+.forest-intro{
+  font-size:1rem;line-height:1.85;
+  color:rgba(255,255,255,0.6);
+  font-style:italic;
+}
+
+.services-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;
+}
+
+.svc{
+  background:rgba(255,255,255,0.07);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:20px;padding:2rem 1.8rem;
+  transition:all 0.35s;position:relative;overflow:hidden;
+}
+
+.svc::after{
+  content:'';position:absolute;
+  top:0;left:0;right:0;height:2.5px;
+  border-radius:20px 20px 0 0;
+  opacity:0;transition:opacity 0.3s;
+}
+
+.svc:nth-child(1)::after{background:var(--bleu);}
+.svc:nth-child(2)::after{background:var(--rose);}
+.svc:nth-child(3)::after{background:var(--peche);}
+.svc:nth-child(4)::after{background:var(--sauge);}
+.svc:nth-child(5)::after{background:var(--paille);}
+.svc:nth-child(6)::after{background:var(--cel);}
+
+.svc:hover{
+  background:rgba(255,255,255,0.11);
+  transform:translateY(-5px);
+  border-color:rgba(255,255,255,0.18);
+}
+.svc:hover::after{opacity:1;}
+
+.svc-num{
+  font-family:'Caveat',cursive;
+  font-size:2rem;font-weight:700;
+  color:rgba(255,255,255,0.15);
+  line-height:1;margin-bottom:1rem;
+}
+
+.svc-icon{font-size:1.6rem;margin-bottom:0.8rem;}
+
+.svc-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.05rem;font-weight:700;
+  color:white;line-height:1.3;margin-bottom:0.6rem;
+}
+
+.svc-desc{
+  font-size:0.85rem;line-height:1.75;
+  color:rgba(255,255,255,0.5);
+}
+
+/* ── IMPACT ── */
+.section-impact{
+  padding:7rem 4rem;
+  background:var(--papier);
+  position:relative;overflow:hidden;
+}
+
+.impact-inner{max-width:1100px;margin:0 auto;}
+
+.impact-header{
+  text-align:center;max-width:600px;margin:0 auto 4rem;
+}
+
+.impact-header p{
+  font-size:1rem;line-height:1.85;color:var(--gris);margin-top:1rem;
+}
+
+.impact-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;
+}
+
+.imp{
+  background:white;border-radius:20px;padding:2rem 1.8rem;
+  box-shadow:0 2px 16px rgba(44,40,32,0.05);
+  border:1px solid rgba(173,201,184,0.2);
+  position:relative;overflow:hidden;
+  transition:all 0.3s;
+}
+
+.imp::before{
+  content:'';position:absolute;
+  bottom:0;left:0;right:0;height:3px;
+  border-radius:0 0 20px 20px;
+}
+
+.imp:nth-child(1)::before{background:var(--bleu);}
+.imp:nth-child(2)::before{background:var(--kaki);}
+.imp:nth-child(3)::before{background:var(--rose);}
+.imp:nth-child(4)::before{background:var(--orange);}
+.imp:nth-child(5)::before{background:var(--foret);}
+.imp:nth-child(6)::before{background:var(--paille);}
+
+.imp:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(44,40,32,0.1);}
+
+.imp-icon{font-size:1.8rem;margin-bottom:0.8rem;}
+
+.imp-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1rem;font-weight:700;
+  color:var(--encre);line-height:1.3;
+  margin-bottom:0.6rem;
+}
+
+.imp-body{font-size:0.85rem;line-height:1.75;color:var(--gris);}
+
+.imp-list{
+  list-style:none;margin-top:0.8rem;
+  display:flex;flex-direction:column;gap:0.3rem;
+}
+
+.imp-list li{
+  font-size:0.73rem;color:var(--kaki);
+  padding-left:1rem;position:relative;line-height:1.4;
+}
+
+.imp-list li::before{
+  content:'→';position:absolute;left:0;
+  color:var(--orange);font-size:0.65rem;top:0.1rem;
+}
+
+/* ── LIEUX ── */
+.section-lieux{
+  padding:7rem 4rem;position:relative;overflow:hidden;
+}
+
+.lieux-inner{max-width:1100px;margin:0 auto;}
+
+.lieux-top{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  margin-bottom:3.5rem;
+}
+
+.lieux-count{
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:var(--gris);
+}
+
+.lieux-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);
+  gap:1rem;margin-bottom:3rem;
+}
+
+.lieu{
+  background:white;border-radius:16px;
+  padding:1.4rem 1.2rem;
+  border:1.5px solid transparent;
+  transition:all 0.3s;cursor:default;
+  position:relative;overflow:hidden;
+}
+
+.lieu-accent{
+  position:absolute;top:0;left:0;right:0;height:3px;
+  border-radius:16px 16px 0 0;
+}
+
+.lieu:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 28px rgba(44,40,32,0.1);
+  border-color:rgba(173,201,184,0.3);
+}
+
+.lieu-name{
+  font-family:'Libre Baskerville',serif;
+  font-size:0.9rem;font-weight:700;
+  color:var(--encre);line-height:1.3;
+  margin-bottom:0.3rem;
+}
+
+.lieu-loc{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--gris);
+}
+
+.lieu-yr{
+  font-family:'Caveat',cursive;
+  font-size:0.85rem;color:var(--orange);
+  margin-top:0.4rem;
+}
+
+/* Citation block */
+.lieux-cite{
+  background:var(--foret);border-radius:24px;
+  padding:3.5rem 4rem;
+  display:grid;grid-template-columns:auto 1fr;
+  gap:2.5rem;align-items:center;
+  margin-bottom:2rem;
+  position:relative;overflow:hidden;
+}
+
+.cite-mark{
+  font-family:'Libre Baskerville',serif;
+  font-size:10rem;line-height:0.6;
+  color:var(--peche);opacity:0.25;
+  flex-shrink:0;
+}
+
+.cite-text{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.5rem;font-style:italic;
+  line-height:1.65;color:white;
+  margin-bottom:1.2rem;
+}
+
+.cite-src{
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:var(--peche);
+}
+
+/* Stats */
+.lieux-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;
+}
+
+.lstat{
+  background:var(--papier);border-radius:16px;
+  padding:2rem;text-align:center;
+  border:1px solid rgba(173,201,184,0.2);
+}
+
+.lstat-val{
+  font-family:'Libre Baskerville',serif;
+  font-size:3rem;font-weight:700;
+  line-height:1;margin-bottom:0.4rem;
+}
+
+.lstat-lbl{
+  font-size:0.68rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--gris);line-height:1.5;
+}
+
+/* ── METHODE ── */
+.section-methode{
+  padding:7rem 4rem;
+  background:linear-gradient(160deg, #EFF5EC 0%, #F5EFE4 60%, #EAF0EC 100%);
+  position:relative;overflow:hidden;
+}
+
+.methode-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1.2fr 1fr;
+  gap:6rem;align-items:center;
+}
+
+.methode-steps{margin-top:2.5rem;}
+
+.mstep{
+  display:flex;gap:1.5rem;
+  padding:1.5rem 0;
+  border-bottom:1px solid rgba(173,201,184,0.35);
+  align-items:flex-start;
+}
+
+.mstep:last-child{border-bottom:none;}
+
+.mstep-circle{
+  width:46px;height:46px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Caveat',cursive;
+  font-size:1.3rem;font-weight:700;
+  color:white;flex-shrink:0;
+  box-shadow:0 4px 14px rgba(0,0,0,0.15);
+}
+
+.mstep-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1rem;font-weight:700;
+  color:var(--encre);margin-bottom:0.3rem;
+}
+
+.mstep-desc{font-size:0.88rem;line-height:1.7;color:var(--gris);}
+
+.methode-card{
+  background:white;border-radius:24px;padding:2.5rem;
+  box-shadow:0 12px 48px rgba(44,40,32,0.08);
+}
+
+.mcard-title{
+  font-family:'Caveat',cursive;
+  font-size:1.3rem;color:var(--foret);
+  margin-bottom:1.5rem;
+  padding-bottom:1rem;
+  border-bottom:2px solid rgba(173,201,184,0.35);
+}
+
+.mpillar{
+  display:flex;gap:1rem;align-items:flex-start;
+  margin-bottom:1.2rem;
+}
+
+.mpillar:last-child{margin-bottom:0;}
+
+.mpillar-icon{
+  width:38px;height:38px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.1rem;flex-shrink:0;
+}
+
+.mpillar-body strong{
+  display:block;font-weight:500;font-size:0.9rem;
+  color:var(--encre);margin-bottom:0.2rem;
+}
+
+.mpillar-body span{
+  font-size:0.82rem;line-height:1.6;color:var(--gris);
+}
+
+/* ── CONTACT ── */
+.section-contact{
+  padding:7rem 4rem;
+  position:relative;overflow:hidden;
+}
+
+.contact-inner{max-width:820px;margin:0 auto;}
+
+.contact-header{text-align:center;margin-bottom:3rem;}
+
+.contact-header p{
+  font-size:1rem;line-height:1.85;color:var(--gris);margin-top:1rem;
+}
+
+.contact-form{
+  background:white;border-radius:28px;padding:3.5rem;
+  box-shadow:0 16px 56px rgba(44,40,32,0.09);
+}
+
+.form-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:1.2rem;margin-bottom:1.2rem;
+}
+
+.ff{display:flex;flex-direction:column;gap:0.4rem;}
+.ff.full{grid-column:1/-1;}
+
+.ff label{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--kaki);
+}
+
+.ff input, .ff select, .ff textarea{
+  background:var(--creme);
+  border:1.5px solid rgba(173,201,184,0.4);
+  border-radius:12px;padding:0.85rem 1rem;
+  font-family:'DM Sans',sans-serif;
+  font-size:0.95rem;color:var(--encre);
+  outline:none;transition:border-color 0.3s;
+  -webkit-appearance:none;
+}
+
+.ff input:focus,.ff select:focus,.ff textarea:focus{
+  border-color:var(--foret);
+}
+
+.ff textarea{resize:none;height:120px;}
+
+.form-foot{text-align:center;margin-top:1.5rem;}
+
+.btn-send{
+  background:var(--foret);color:white;border:none;
+  border-radius:50px;padding:1.1rem 3.5rem;
+  font-family:'DM Sans',sans-serif;
+  font-size:0.8rem;font-weight:500;
+  letter-spacing:0.12em;text-transform:uppercase;
+  cursor:pointer;transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(38,96,65,0.25);
+}
+
+.btn-send:hover{
+  background:var(--orange);
+  transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(228,126,65,0.3);
+}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--encre);color:rgba(255,255,255,0.5);
+  padding:2.5rem 4rem;
+  display:flex;justify-content:space-between;align-items:center;
+}
+
+.footer-sig{
+  font-family:'Caveat',cursive;
+  font-size:1.4rem;color:white;
+}
+
+.footer-links{display:flex;gap:2rem;list-style:none;}
+
+.footer-links a{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:rgba(255,255,255,0.4);text-decoration:none;
+  transition:color 0.3s;
+}
+
+.footer-links a:hover{color:var(--peche);}
+
+.footer-copy{font-size:0.62rem;color:rgba(255,255,255,0.25);}
+
+/* ── REVEAL ── */
+.reveal{
+  opacity:0;transform:translateY(28px);
+  transition:opacity 0.8s ease,transform 0.8s ease;
+}
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(24px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+@keyframes float1{
+  0%,100%{transform:translateY(0) rotate(0deg);}
+  40%{transform:translateY(-14px) rotate(2.5deg);}
+  70%{transform:translateY(6px) rotate(-1.5deg);}
+}
+
+@keyframes float2{
+  0%,100%{transform:translateY(0) rotate(0deg);}
+  30%{transform:translateY(10px) rotate(-2deg);}
+  70%{transform:translateY(-8px) rotate(1.5deg);}
+}
+
+@keyframes float3{
+  0%,100%{transform:translateY(0) scale(1);}
+  50%{transform:translateY(-6px) scale(1.02);}
+}
+
+@keyframes spin{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+
+@keyframes marquee{
+  from{transform:translateX(0);}
+  to{transform:translateX(-50%);}
+}
+
+/* ── STRIP ── */
+.strip{
+  background:var(--encre);
+  padding:1rem 0;overflow:hidden;
+}
+
+.strip-track{
+  display:flex;gap:3rem;
+  animation:marquee 18s linear infinite;
+  white-space:nowrap;width:max-content;
+}
+
+.strip-item{
+  display:flex;align-items:center;gap:0.7rem;
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:rgba(255,255,255,0.55);
+}
+
+.strip-item span{
+  width:4px;height:4px;border-radius:50%;
+  background:var(--peche);flex-shrink:0;
+}
+
+/* ── MOBILE ── */
+@media(max-width:768px){
+  nav{padding:1rem 1.5rem;}
+  .nav-links{display:none;}
+
+  .hero{grid-template-columns:1fr;min-height:auto;}
+  .hero-left{padding:7rem 1.5rem 3rem;}
+  .hero-right{height:220px;}
+  .hero-card{display:none;}
+
+  .section-about,.section-forest,.section-impact,
+  .section-lieux,.section-methode,.section-contact{padding:4rem 1.5rem;}
+  #mouvement{padding:4rem 1.5rem;}
+  #mouvement > div{grid-template-columns:1fr!important;gap:2.5rem;}
+
+  .about-inner{grid-template-columns:1fr;gap:2.5rem;}
+  .forest-header{grid-template-columns:1fr;gap:1.5rem;}
+  .services-grid{grid-template-columns:1fr;gap:1rem;}
+  .impact-grid{grid-template-columns:1fr;gap:1rem;}
+  .lieux-top{flex-direction:column;align-items:flex-start;gap:0.8rem;}
+  .lieux-grid{grid-template-columns:1fr 1fr;gap:0.8rem;}
+  .lieux-cite{grid-template-columns:1fr;gap:1rem;padding:2rem;}
+  .cite-mark{font-size:5rem;}
+  .lieux-stats{grid-template-columns:1fr;}
+  .methode-inner{grid-template-columns:1fr;gap:3rem;}
+  .form-grid{grid-template-columns:1fr;}
+  .contact-form{padding:2rem 1.5rem;}
+  footer{flex-direction:column;gap:1.5rem;text-align:center;padding:2rem 1.5rem;}
+  .footer-links{flex-wrap:wrap;justify-content:center;gap:1.2rem;}
+  .hero-stats{gap:1.5rem;}
+  .lieux-grid{grid-template-columns:1fr;}
+}
+
+/* ── TABLETTE 769px–1024px ── */
+@media(min-width:769px) and (max-width:1024px){
+  nav{padding:1.1rem 2rem;}
+  .hero{grid-template-columns:1fr;}
+  .hero-left{padding:8rem 2.5rem 4rem;}
+  .hero-right{height:260px;}
+  .hero-card{display:none;}
+  .section-about,.section-forest,.section-impact,
+  .section-lieux,.section-methode,.section-contact{padding:5rem 2.5rem;}
+  #mouvement{padding:5rem 2.5rem;}
+  #mouvement > div{grid-template-columns:1fr!important;gap:3rem;}
+  .about-inner{grid-template-columns:1fr 1fr;}
+  .services-grid{grid-template-columns:1fr 1fr;}
+  .impact-grid{grid-template-columns:1fr 1fr;}
+  .methode-inner{grid-template-columns:1fr;}
+  .methode-visual{display:none;}
+  .forest-header{grid-template-columns:1fr;}
+  .lieux-grid{grid-template-columns:1fr 1fr 1fr;}
+  .form-grid{grid-template-columns:1fr 1fr;}
+}
+
+/* ── HAMBURGER ── */
+.burger{
+  display:none;
+  flex-direction:column;gap:5px;
+  background:none;border:none;cursor:pointer;
+  padding:6px;z-index:400;
+}
+.burger span{
+  display:block;width:24px;height:2px;
+  background:var(--foret);border-radius:2px;
+  transition:all 0.3s ease;transform-origin:center;
+}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0);}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+/* Mobile overlay nav */
+.mobile-nav{
+  display:none;
+  position:fixed;inset:0;z-index:200;
+  background:rgba(251,248,241,0.98);
+  backdrop-filter:blur(20px);
+  flex-direction:column;align-items:center;justify-content:center;
+  gap:0;
+  opacity:0;transition:opacity 0.3s ease;
+}
+.mobile-nav.open{opacity:1;}
+.mobile-nav a{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,5vw,2.4rem);
+  font-weight:400;font-style:italic;
+  color:var(--encre);text-decoration:none;
+  padding:0.7rem 0;
+  border-bottom:1px solid rgba(173,201,184,0.2);
+  width:70%;text-align:center;
+  transition:color 0.2s;
+}
+.mobile-nav a:hover{color:var(--orange);}
+.mobile-nav a.btn-cta{
+  font-family:'DM Sans',sans-serif;
+  font-style:normal;font-size:0.85rem;
+  font-weight:500;letter-spacing:0.12em;text-transform:uppercase;
+  background:var(--foret);color:white!important;
+  padding:1rem 2.5rem;border-radius:50px;
+  margin-top:1.5rem;border:none;
+}
+
+@media(max-width:768px){
+  .burger{display:flex;}
+  .mobile-nav{display:flex;}
+}
+</style>
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="ring"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav aria-label="Navigation principale">
+  <div>
+    <div class="nav-sig">Stéphane Vatinel</div>
+    <div class="nav-sub">Directeur artistique de territoire</div>
+  </div>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">Vision</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#lieux">Lieux</a></li>
+    <li><a href="#mouvement">Mouvement</a></li>
+    <li><a href="#methode">Méthode</a></li>
+    <li><a href="medias.html">Médias</a></li>
+    <li><a href="#contact" class="nav-btn">Construisons ensemble</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Menu mobile overlay -->
+<div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Menu de navigation" aria-hidden="true">
+  <a href="#about" onclick="closeMobileNav()">Vision</a>
+  <a href="#impact" onclick="closeMobileNav()">Impact</a>
+  <a href="#lieux" onclick="closeMobileNav()">Lieux</a>
+  <a href="#mouvement" onclick="closeMobileNav()">Mouvement</a>
+  <a href="#methode" onclick="closeMobileNav()">Méthode</a>
+  <a href="medias.html" onclick="closeMobileNav()">Médias</a>
+  <a href="#contact" class="btn-cta" onclick="closeMobileNav()">Construisons ensemble</a>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" aria-label="Présentation de Stéphane Vatinel, directeur artistique de territoire">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <!-- Botanical top-left large -->
+  <svg aria-hidden="true" style="position:absolute;top:-20px;left:-30px;width:420px;opacity:0.7;pointer-events:none;z-index:2;animation:float1 9s ease-in-out infinite" viewBox="0 0 420 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Grande feuille monstera principale -->
+    <ellipse cx="200" cy="220" rx="110" ry="160" fill="#ADC9B8" opacity="0.55" transform="rotate(-15 200 220)"/>
+    <ellipse cx="180" cy="195" rx="70" ry="110" fill="#266041" opacity="0.45" transform="rotate(-15 180 195)"/>
+    <!-- Trous monstera -->
+    <ellipse cx="188" cy="155" rx="22" ry="32" fill="#FBF8F1" opacity="0.9" transform="rotate(-15 188 155)"/>
+    <ellipse cx="212" cy="225" rx="18" ry="26" fill="#FBF8F1" opacity="0.9" transform="rotate(-15 212 225)"/>
+    <!-- Nervures -->
+    <path d="M185 340 Q183 270 180 195" stroke="#266041" stroke-width="3" fill="none" opacity="0.4"/>
+    <path d="M185 340 Q210 290 230 230" stroke="#266041" stroke-width="2" fill="none" opacity="0.3"/>
+    <path d="M185 340 Q155 285 145 210" stroke="#266041" stroke-width="2" fill="none" opacity="0.3"/>
+    <!-- Feuille secondaire jaune -->
+    <ellipse cx="80" cy="310" rx="48" ry="72" fill="#E6D67F" opacity="0.65" transform="rotate(25 80 310)"/>
+    <path d="M80 380 Q82 345 84 310" stroke="#708472" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <!-- Petite feuille sauge -->
+    <ellipse cx="45" cy="160" rx="28" ry="44" fill="#ADC9B8" opacity="0.7" transform="rotate(-35 45 160)"/>
+    <!-- Fleur orange -->
+    <circle cx="310" cy="90" r="22" fill="#E47E3D" opacity="0.85"/>
+    <circle cx="290" cy="72" r="13" fill="#FEBE85" opacity="0.9"/>
+    <circle cx="332" cy="74" r="10" fill="#FEBE85" opacity="0.85"/>
+    <circle cx="308" cy="58" r="11" fill="#E47E3D" opacity="0.7"/>
+    <!-- Pétales -->
+    <ellipse cx="325" cy="108" rx="10" ry="16" fill="#FEBE85" opacity="0.7" transform="rotate(30 325 108)"/>
+    <ellipse cx="294" cy="108" rx="10" ry="16" fill="#FEBE85" opacity="0.7" transform="rotate(-30 294 108)"/>
+    <!-- Baies roses -->
+    <circle cx="350" cy="180" r="9" fill="#C7868D" opacity="0.9"/>
+    <circle cx="362" cy="164" r="6" fill="#C7868D" opacity="0.8"/>
+    <circle cx="340" cy="162" r="7" fill="#C7868D" opacity="0.75"/>
+    <!-- Tige baies -->
+    <path d="M355 200 Q353 185 350 180" stroke="#708472" stroke-width="1.5" fill="none"/>
+    <path d="M355 200 Q360 182 362 164" stroke="#708472" stroke-width="1.5" fill="none"/>
+    <path d="M355 200 Q348 180 340 162" stroke="#708472" stroke-width="1.5" fill="none"/>
+    <!-- Petite feuille bleue -->
+    <ellipse cx="360" cy="300" rx="22" ry="35" fill="#6AA2B9" opacity="0.55" transform="rotate(10 360 300)"/>
+    <!-- Feuille céladon -->
+    <ellipse cx="110" cy="60" rx="18" ry="30" fill="#C4D4A4" opacity="0.7" transform="rotate(-50 110 60)"/>
+  </svg>
+
+  <!-- Botanical top-right -->
+  <svg style="position:absolute;top:40px;right:-20px;width:280px;opacity:0.6;pointer-events:none;z-index:2;animation:float2 11s ease-in-out infinite 1s" viewBox="0 0 280 360" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="140" cy="180" rx="90" ry="130" fill="#C4D4A4" opacity="0.55" transform="rotate(8 140 180)"/>
+    <ellipse cx="120" cy="155" rx="55" ry="85" fill="#708472" opacity="0.4" transform="rotate(8 120 155)"/>
+    <ellipse cx="138" cy="112" rx="22" ry="32" fill="#FBF8F1" opacity="0.9" transform="rotate(8 138 112)"/>
+    <ellipse cx="155" cy="178" rx="16" ry="24" fill="#FBF8F1" opacity="0.9" transform="rotate(8 155 178)"/>
+    <path d="M135 290 Q133 230 130 160" stroke="#708472" stroke-width="2.5" fill="none" opacity="0.35"/>
+    <ellipse cx="60" cy="240" rx="38" ry="56" fill="#6AA2B9" opacity="0.5" transform="rotate(-20 60 240)"/>
+    <circle cx="220" cy="80" r="16" fill="#E47E3D" opacity="0.8"/>
+    <circle cx="205" cy="66" r="9" fill="#FEBE85" opacity="0.85"/>
+    <circle cx="235" cy="67" r="7" fill="#FEBE85" opacity="0.8"/>
+    <circle cx="218" cy="60" r="8" fill="#E47E3D" opacity="0.65"/>
+    <ellipse cx="30" cy="100" rx="18" ry="30" fill="#E6D67F" opacity="0.65" transform="rotate(-30 30 100)"/>
+    <circle cx="240" cy="240" r="8" fill="#C7868D" opacity="0.8"/>
+    <circle cx="250" cy="225" r="5" fill="#C7868D" opacity="0.7"/>
+  </svg>
+
+  <!-- Botanical bottom-left -->
+  <svg style="position:absolute;bottom:-30px;left:20%;width:240px;opacity:0.5;pointer-events:none;z-index:2;animation:float3 13s ease-in-out infinite 2s" viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="120" cy="100" rx="85" ry="55" fill="#ADC9B8" opacity="0.6" transform="rotate(12 120 100)"/>
+    <ellipse cx="70" cy="70" rx="50" ry="70" fill="#E6D67F" opacity="0.55" transform="rotate(-22 70 70)"/>
+    <ellipse cx="180" cy="50" rx="35" ry="52" fill="#266041" opacity="0.45" transform="rotate(8 180 50)"/>
+    <circle cx="40" cy="30" r="13" fill="#E47E3D" opacity="0.8"/>
+    <circle cx="28" cy="18" r="7" fill="#FEBE85" opacity="0.85"/>
+    <circle cx="210" cy="160" r="9" fill="#C7868D" opacity="0.85"/>
+    <path d="M120 190 Q122 150 120 110" stroke="#708472" stroke-width="2" fill="none" opacity="0.4"/>
+  </svg>
+
+  <!-- Hero content left -->
+  <div class="hero-left">
+    <p class="hero-eyebrow">Directeur artistique de territoire</p>
+    <h1 class="hero-title" aria-label="Donner une âme vivante aux territoires">
+      <span class="t-green">Donner une</span>
+      <span class="t-hand">âme vivante</span>
+      <span class="t-italic">aux territoires</span>
+    </h1>
+    <p class="hero-body">
+      Depuis 30 ans, des friches, des gares oubliées et des espaces abandonnés sont devenus des lieux vivants qui régénèrent les territoires. Ce travail est toujours collectif — équipes, habitants, partenaires, élus. Construisons le vôtre ensemble.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-main">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Construisons votre projet
+      </a>
+      <a href="#lieux" class="btn-ghost">Voir les réalisations →</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <span class="hstat-val">35</span>
+        <span class="hstat-lbl">Années</span>
+      </div>
+      <div>
+        <span class="hstat-val" style="color:var(--orange)">10+</span>
+        <span class="hstat-lbl">Lieux créés</span>
+      </div>
+      <div>
+        <span class="hstat-val" style="color:var(--bleu)">1M+</span>
+        <span class="hstat-lbl">Visiteurs/an</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero right botanical -->
+  <div class="hero-right">
+    <!-- Large botanical composition -->
+    <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.55" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <!-- Fond aquarelle -->
+      <ellipse cx="300" cy="400" rx="250" ry="350" fill="#ADC9B8" opacity="0.25"/>
+      <ellipse cx="350" cy="300" rx="180" ry="260" fill="#C4D4A4" opacity="0.2"/>
+      <!-- Grande feuille centrale -->
+      <ellipse cx="300" cy="380" rx="140" ry="200" fill="#266041" opacity="0.35" transform="rotate(-8 300 380)"/>
+      <ellipse cx="275" cy="340" rx="88" ry="135" fill="#ADC9B8" opacity="0.5" transform="rotate(-8 275 340)"/>
+      <!-- Trous monstera -->
+      <ellipse cx="285" cy="280" rx="28" ry="42" fill="#F5EFE0" opacity="0.8" transform="rotate(-8 285 280)"/>
+      <ellipse cx="318" cy="370" rx="22" ry="33" fill="#F5EFE0" opacity="0.8" transform="rotate(-8 318 370)"/>
+      <ellipse cx="260" cy="380" rx="16" ry="24" fill="#F5EFE0" opacity="0.8" transform="rotate(-8 260 380)"/>
+      <!-- Tige -->
+      <path d="M295 560 Q290 470 285 380" stroke="#266041" stroke-width="5" fill="none" opacity="0.4"/>
+      <!-- Feuille jaune gauche -->
+      <ellipse cx="120" cy="500" rx="65" ry="95" fill="#E6D67F" opacity="0.6" transform="rotate(22 120 500)"/>
+      <path d="M125 590 Q126 545 128 500" stroke="#708472" stroke-width="3" fill="none" opacity="0.45"/>
+      <!-- Feuille bleue droite -->
+      <ellipse cx="480" cy="450" rx="58" ry="85" fill="#6AA2B9" opacity="0.5" transform="rotate(-12 480 450)"/>
+      <path d="M478 540 Q479 495 480 450" stroke="#6AA2B9" stroke-width="3" fill="none" opacity="0.4"/>
+      <!-- Petite feuille céladon -->
+      <ellipse cx="180" cy="200" rx="38" ry="58" fill="#C4D4A4" opacity="0.65" transform="rotate(-40 180 200)"/>
+      <!-- Fleurs oranges cluster -->
+      <circle cx="450" cy="160" r="28" fill="#E47E3D" opacity="0.75"/>
+      <circle cx="425" cy="138" r="17" fill="#FEBE85" opacity="0.85"/>
+      <circle cx="476" cy="140" r="14" fill="#FEBE85" opacity="0.8"/>
+      <circle cx="448" cy="122" r="16" fill="#E47E3D" opacity="0.65"/>
+      <ellipse cx="468" cy="183" rx="13" ry="21" fill="#FEBE85" opacity="0.6" transform="rotate(35 468 183)"/>
+      <ellipse cx="430" cy="183" rx="13" ry="21" fill="#FEBE85" opacity="0.6" transform="rotate(-35 430 183)"/>
+      <!-- Petite fleur rose -->
+      <circle cx="150" cy="650" r="20" fill="#C7868D" opacity="0.7"/>
+      <circle cx="134" cy="635" r="11" fill="#FEBE85" opacity="0.8"/>
+      <circle cx="167" cy="636" r="9" fill="#FEBE85" opacity="0.75"/>
+      <!-- Grappe de baies -->
+      <circle cx="500" cy="620" r="10" fill="#C7868D" opacity="0.85"/>
+      <circle cx="514" cy="604" r="7" fill="#C7868D" opacity="0.8"/>
+      <circle cx="487" cy="605" r="8" fill="#C7868D" opacity="0.75"/>
+      <circle cx="505" cy="593" r="6" fill="#C7868D" opacity="0.7"/>
+      <!-- Feuille kaki en bas -->
+      <ellipse cx="380" cy="680" rx="50" ry="72" fill="#708472" opacity="0.45" transform="rotate(15 380 680)"/>
+      <!-- Petites herbes -->
+      <path d="M80 750 Q82 700 78 650" stroke="#ADC9B8" stroke-width="2.5" fill="none" opacity="0.5"/>
+      <path d="M95 760 Q98 710 92 670" stroke="#C4D4A4" stroke-width="2" fill="none" opacity="0.5"/>
+      <path d="M540 730 Q543 685 538 640" stroke="#E6D67F" stroke-width="2.5" fill="none" opacity="0.45"/>
+    </svg>
+
+    <!-- Floating card -->
+    <div class="hero-card">
+      <div class="hcard-label">✦ Quelques lieux créés</div>
+      <ul class="hcard-list">
+        <li class="hcard-item"><div class="hcard-dot" style="background:var(--foret)"></div>La Cité Fertile · Pantin</li>
+        <li class="hcard-item"><div class="hcard-dot" style="background:var(--bleu)"></div>La REcyclerie · Paris 18e</li>
+        <li class="hcard-item"><div class="hcard-dot" style="background:var(--rose)"></div>Pavillon des Canaux</li>
+        <li class="hcard-item"><div class="hcard-dot" style="background:var(--orange)"></div>Le Comptoir Général</li>
+        <li class="hcard-item"><div class="hcard-dot" style="background:var(--paille)"></div>La Halle aux Poissons</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ STRIP ═══ -->
+<div class="strip">
+  <div class="strip-track">
+    <div class="strip-item"><span></span> Tiers-lieux</div>
+    <div class="strip-item"><span></span> Direction artistique</div>
+    <div class="strip-item"><span></span> Friches urbaines</div>
+    <div class="strip-item"><span></span> Économie sociale</div>
+    <div class="strip-item"><span></span> Transition écologique</div>
+    <div class="strip-item"><span></span> Stratégie territoriale</div>
+    <div class="strip-item"><span></span> Campus des Tiers-Lieux</div>
+    <div class="strip-item"><span></span> Sinny & Ooko</div>
+    <div class="strip-item"><span></span> Tiers-lieux</div>
+    <div class="strip-item"><span></span> Direction artistique</div>
+    <div class="strip-item"><span></span> Friches urbaines</div>
+    <div class="strip-item"><span></span> Économie sociale</div>
+    <div class="strip-item"><span></span> Transition écologique</div>
+    <div class="strip-item"><span></span> Stratégie territoriale</div>
+    <div class="strip-item"><span></span> Campus des Tiers-Lieux</div>
+    <div class="strip-item"><span></span> Sinny & Ooko</div>
+  </div>
+</div>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about" class="section-about" aria-labelledby="about-heading">
+  <!-- Botanical accent right -->
+  <svg aria-hidden="true" style="position:absolute;right:-40px;top:0;width:260px;opacity:0.22;pointer-events:none;animation:float2 10s ease-in-out infinite" viewBox="0 0 260 380" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="130" cy="190" rx="88" ry="130" fill="#266041" transform="rotate(-5 130 190)"/>
+    <ellipse cx="108" cy="162" rx="55" ry="85" fill="#ADC9B8" transform="rotate(-5 108 162)"/>
+    <ellipse cx="126" cy="120" rx="24" ry="36" fill="#F5EFE0" transform="rotate(-5 126 120)"/>
+    <ellipse cx="148" cy="192" rx="18" ry="27" fill="#F5EFE0" transform="rotate(-5 148 192)"/>
+    <circle cx="200" cy="60" r="18" fill="#E47E3D" opacity="0.9"/>
+    <circle cx="185" cy="45" r="10" fill="#FEBE85"/>
+    <circle cx="215" cy="47" r="8" fill="#FEBE85"/>
+    <circle cx="198" cy="38" r="9" fill="#E47E3D" opacity="0.7"/>
+    <ellipse cx="40" cy="280" rx="35" ry="52" fill="#E6D67F" opacity="0.7" transform="rotate(18 40 280)"/>
+    <circle cx="220" cy="290" r="9" fill="#C7868D" opacity="0.85"/>
+    <circle cx="232" cy="275" r="6" fill="#C7868D"/>
+    <circle cx="210" cy="272" r="7" fill="#C7868D" opacity="0.8"/>
+  </svg>
+
+  <div class="about-inner">
+    <div class="about-visual reveal">
+      <div class="about-card">
+        <p class="about-quote">
+          Un espace sans âme est un espace qui ne transforme rien. Ce que nous créons, ce ne sont pas des mètres carrés — ce sont des conditions pour qu'un territoire <strong>se réinvente</strong>.
+        </p>
+        <div class="about-badge">
+          🌿 35 ans de pratique collective
+        </div>
+      </div>
+      <!-- Botanical corner card -->
+      <svg style="position:absolute;bottom:-30px;left:-30px;width:130px;opacity:0.55;pointer-events:none;z-index:-1;animation:float3 8s ease-in-out infinite" viewBox="0 0 130 160" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="65" cy="80" rx="45" ry="65" fill="#E6D67F" opacity="0.8" transform="rotate(20 65 80)"/>
+        <ellipse cx="50" cy="64" rx="28" ry="42" fill="#ADC9B8" opacity="0.7" transform="rotate(20 50 64)"/>
+        <circle cx="100" cy="25" r="12" fill="#E47E3D" opacity="0.85"/>
+        <circle cx="88" cy="14" r="7" fill="#FEBE85"/>
+      </svg>
+    </div>
+
+    <div class="about-content reveal">
+      <p class="s-tag">Constat</p>
+      <h2 class="s-title" id="about-heading">Des espaces <em>livrés</em><br>sans vie, sans récit</h2>
+      <p class="about-body">
+        Les collectivités investissent dans du béton, du mobilier, des mètres carrés — et se retrouvent avec des lieux vides. Sans usage, sans communauté, sans histoire qui fasse sens pour ceux qui y vivent.
+      </p>
+      <p class="about-body" style="margin-top:-0.5rem">
+        Nous ne livrons pas des espaces. Nous créons les conditions pour qu'un territoire se réinvente — en articulant vision culturelle, ancrage communautaire et modèle économique viable. Et votre projet devient partie de cette histoire collective.
+      </p>
+      <div class="about-pills">
+        <span class="pill">🌿 Ancrage communautaire</span>
+        <span class="pill">💡 Vision & récit</span>
+        <span class="pill">📐 Modèle économique</span>
+        <span class="pill">🔄 Durabilité</span>
+        <span class="pill">🤝 Mixité des publics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOREST / SERVICES ═══ -->
+<section id="services" class="section-forest" aria-labelledby="services-heading">
+  <!-- Botanical white ghost -->
+  <svg aria-hidden="true" style="position:absolute;right:-50px;bottom:-60px;width:380px;opacity:0.06;pointer-events:none" viewBox="0 0 380 460" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="190" cy="230" rx="140" ry="200" fill="white" transform="rotate(-10 190 230)"/>
+    <ellipse cx="160" cy="195" rx="88" ry="130" fill="white" transform="rotate(-10 160 195)"/>
+    <ellipse cx="185" cy="145" rx="38" ry="58" fill="#266041" transform="rotate(-10 185 145)"/>
+    <circle cx="300" cy="80" r="30" fill="white" opacity="0.8"/>
+    <circle cx="275" cy="58" r="17" fill="white"/>
+    <circle cx="325" cy="60" r="14" fill="white"/>
+  </svg>
+  <!-- Botanical left ghost -->
+  <svg style="position:absolute;left:-30px;top:10%;width:200px;opacity:0.08;pointer-events:none;animation:float1 12s ease-in-out infinite" viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="100" cy="140" rx="70" ry="105" fill="white" transform="rotate(8 100 140)"/>
+    <ellipse cx="80" cy="115" rx="42" ry="68" fill="white" opacity="0.7" transform="rotate(8 80 115)"/>
+    <ellipse cx="98" cy="80" rx="20" ry="30" fill="#266041" transform="rotate(8 98 80)"/>
+  </svg>
+
+  <div class="forest-inner">
+    <div class="forest-header reveal">
+      <div>
+        <p class="s-tag" style="color:var(--peche)">
+          <span style="animation:none;color:var(--peche)">✦</span> Ce que nous construisons ensemble
+        </p>
+        <h2 class="forest-title" id="services-heading">Des missions<br>sur <em>mesure</em></h2>
+      </div>
+      <p class="forest-intro">
+        Pas de recette universelle. Chaque territoire est unique — et mérite une approche forgée dans l'écoute, la compréhension et l'audace créative. Votre projet, vos équipes, votre territoire : nous travaillons ensemble.
+      </p>
+    </div>
+    <div class="services-grid reveal">
+      <div class="svc">
+        <div class="svc-num">01</div>
+        <div class="svc-icon">🗺️</div>
+        <div class="svc-title">Direction artistique de projet</div>
+        <div class="svc-desc">Concevoir l'identité, le récit et la programmation d'un lieu pour qu'il s'inscrive durablement dans son territoire.</div>
+      </div>
+      <div class="svc">
+        <div class="svc-num">02</div>
+        <div class="svc-icon">🏛️</div>
+        <div class="svc-title">Conseil en stratégie territoriale</div>
+        <div class="svc-desc">Accompagner collectivités et aménageurs dans la définition d'une vision culturelle et sociale pour leurs projets.</div>
+      </div>
+      <div class="svc">
+        <div class="svc-num">03</div>
+        <div class="svc-icon">🌱</div>
+        <div class="svc-title">Maîtrise d'usage</div>
+        <div class="svc-desc">Définir les usages et la programmation avant la conception architecturale — pour que l'espace réponde à une vraie vie.</div>
+      </div>
+      <div class="svc">
+        <div class="svc-num">04</div>
+        <div class="svc-icon">⚙️</div>
+        <div class="svc-title">Ingénierie de modèle économique</div>
+        <div class="svc-desc">Construire des modèles hybrides qui articulent ESS, fréquentation populaire et viabilité financière réelle.</div>
+      </div>
+      <div class="svc">
+        <div class="svc-num">05</div>
+        <div class="svc-icon">🎓</div>
+        <div class="svc-title">Formation & transmission</div>
+        <div class="svc-desc">Via le Campus des Tiers-Lieux, former équipes et porteurs de projets à créer et gérer des lieux durables.</div>
+      </div>
+      <div class="svc">
+        <div class="svc-num">06</div>
+        <div class="svc-icon">🎤</div>
+        <div class="svc-title">Conférences & interventions</div>
+        <div class="svc-desc">Partager une vision des tiers-lieux comme outils de transition écologique et sociale pour les territoires de demain.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ IMPACT ═══ -->
+<section id="impact" class="section-impact" aria-labelledby="impact-heading">
+  <!-- Botanical accent left -->
+  <svg aria-hidden="true" style="position:absolute;left:-50px;bottom:-40px;width:260px;opacity:0.2;pointer-events:none;animation:float2 11s ease-in-out infinite 1.5s" viewBox="0 0 260 300" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="130" cy="150" rx="95" ry="130" fill="#E47E3D" opacity="0.6" transform="rotate(15 130 150)"/>
+    <ellipse cx="105" cy="120" rx="58" ry="85" fill="#E6D67F" opacity="0.7" transform="rotate(15 105 120)"/>
+    <circle cx="200" cy="50" r="22" fill="#E47E3D" opacity="0.8"/>
+    <circle cx="183" cy="35" r="12" fill="#FEBE85"/>
+    <circle cx="218" cy="37" r="9" fill="#FEBE85" opacity="0.9"/>
+  </svg>
+  <!-- Botanical right -->
+  <svg style="position:absolute;right:-30px;top:5%;width:200px;opacity:0.18;pointer-events:none;animation:float1 9s ease-in-out infinite 3s" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="100" cy="130" rx="72" ry="105" fill="#266041" transform="rotate(-6 100 130)"/>
+    <ellipse cx="80" cy="105" rx="45" ry="68" fill="#ADC9B8" transform="rotate(-6 80 105)"/>
+    <ellipse cx="97" cy="72" rx="20" ry="30" fill="#F5EFE0" transform="rotate(-6 97 72)"/>
+    <ellipse cx="118" cy="135" rx="15" ry="22" fill="#F5EFE0" transform="rotate(-6 118 135)"/>
+    <circle cx="165" cy="40" r="15" fill="#C7868D" opacity="0.85"/>
+    <circle cx="152" cy="27" r="8" fill="#FEBE85"/>
+    <circle cx="178" cy="29" r="6" fill="#FEBE85" opacity="0.9"/>
+  </svg>
+
+  <div class="impact-inner">
+    <div class="impact-header reveal">
+      <p class="s-tag" style="justify-content:center">L'impact concret</p>
+      <h2 class="s-title" id="impact-heading">Ce qu'un tiers-lieu <em>produit vraiment</em></h2>
+      <p>Au-delà de la fréquentation, un espace bien pensé génère des effets durables sur l'emploi, le lien social, l'écologie et la fierté d'appartenance.</p>
+    </div>
+    <div class="impact-grid reveal">
+      <div class="imp">
+        <div class="imp-icon">⚙️</div>
+        <div class="imp-title">Emploi local & économie de proximité</div>
+        <div class="imp-body">Des emplois ancrés dans le territoire, qui ne peuvent pas être délocalisés.</div>
+        <ul class="imp-list">
+          <li>Emplois directs : restauration, animation, artisanat</li>
+          <li>Stimulation des circuits courts locaux</li>
+          <li>Incubation d'entrepreneurs à impact</li>
+        </ul>
+      </div>
+      <div class="imp">
+        <div class="imp-icon">🏛️</div>
+        <div class="imp-title">Valorisation du patrimoine existant</div>
+        <div class="imp-body">Réhabiliter coûte moins cher — et raconte une histoire que le neuf ne peut pas offrir.</div>
+        <ul class="imp-list">
+          <li>Réhabilitation sans démolition ni reconstruction</li>
+          <li>Réduction des coûts d'aménagement</li>
+          <li>Effet d'entraînement sur le quartier</li>
+        </ul>
+      </div>
+      <div class="imp">
+        <div class="imp-icon">🤝</div>
+        <div class="imp-title">Cohésion sociale & lien territorial</div>
+        <div class="imp-body">Des lieux où se croisent des gens qui ne se rencontreraient jamais autrement.</div>
+        <ul class="imp-list">
+          <li>Mixité réelle des publics et des usages</li>
+          <li>Réponse à la désertification des territoires</li>
+          <li>Renforcement du tissu associatif</li>
+        </ul>
+      </div>
+      <div class="imp">
+        <div class="imp-icon">🌿</div>
+        <div class="imp-title">Transition écologique visible</div>
+        <div class="imp-body">Des laboratoires du quotidien où l'on apprend à consommer autrement — en vivant.</div>
+        <ul class="imp-list">
+          <li>Économie circulaire et réemploi (cf. REcyclerie)</li>
+          <li>Agriculture urbaine, circuits courts</li>
+          <li>Coworking de proximité</li>
+        </ul>
+      </div>
+      <div class="imp">
+        <div class="imp-icon">🧭</div>
+        <div class="imp-title">Sens & fierté d'appartenance</div>
+        <div class="imp-body">Transformer une vision politique abstraite en expérience concrète et quotidienne.</div>
+        <ul class="imp-list">
+          <li>Récit territorial positif et porteur</li>
+          <li>Outil de communication vivant pour les élus</li>
+          <li>Attractivité renforcée pour talents et entreprises</li>
+        </ul>
+      </div>
+      <div class="imp">
+        <div class="imp-icon">📊</div>
+        <div class="imp-title">Résultats défendables en conseil municipal</div>
+        <div class="imp-body">35 ans de pratique collective — les erreurs ont été faites, les modèles testés. Ce que vous gagnez, c'est l'expérience sans le risque.</div>
+        <ul class="imp-list">
+          <li>1M+ visiteurs/an dans les lieux Sinny & Ooko</li>
+          <li>500 professionnels formés, 150 lieux ouverts</li>
+          <li>Des lieux qui durent 10 ans après ouverture</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ LIEUX ═══ -->
+<section id="lieux" class="section-lieux" aria-labelledby="lieux-heading">
+  <!-- Botanical top right -->
+  <svg aria-hidden="true" style="position:absolute;top:-20px;right:8%;width:200px;opacity:0.28;pointer-events:none;animation:float3 10s ease-in-out infinite" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="100" cy="120" rx="72" ry="105" fill="#266041" transform="rotate(-8 100 120)"/>
+    <ellipse cx="80" cy="97" rx="44" ry="68" fill="#ADC9B8" transform="rotate(-8 80 97)"/>
+    <ellipse cx="96" cy="65" rx="20" ry="30" fill="#FBF8F1" transform="rotate(-8 96 65)"/>
+    <ellipse cx="118" cy="130" rx="15" ry="22" fill="#FBF8F1" transform="rotate(-8 118 130)"/>
+    <circle cx="165" cy="35" r="16" fill="#E47E3D" opacity="0.85"/>
+    <circle cx="152" cy="22" r="9" fill="#FEBE85"/>
+    <circle cx="178" cy="24" r="7" fill="#FEBE85" opacity="0.9"/>
+    <circle cx="162" cy="16" r="8" fill="#E47E3D" opacity="0.65"/>
+  </svg>
+
+  <div class="lieux-inner">
+    <div class="lieux-top reveal">
+      <div>
+        <p class="s-tag">Réalisations</p>
+        <h2 class="s-title" id="lieux-heading">Des lieux qui <em>prouvent</em> la vision</h2>
+      </div>
+      <div class="lieux-count">✦ 10+ lieux · Paris & territoires</div>
+    </div>
+
+    <div class="lieux-grid reveal">
+      <div class="lieu"><div class="lieu-accent" style="background:var(--kaki)"></div><div class="lieu-name">Glazart</div><div class="lieu-loc">Paris 19e</div><div class="lieu-yr">1992 — Premier lieu</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--rose)"></div><div class="lieu-name">Le Divan du Monde</div><div class="lieu-loc">Paris 18e</div><div class="lieu-yr">Montmartre</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--encre)"></div><div class="lieu-name">La Machine du Moulin Rouge</div><div class="lieu-loc">Paris 18e</div><div class="lieu-yr">Club emblématique</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--orange)"></div><div class="lieu-name">Le Comptoir Général</div><div class="lieu-loc">Paris 10e</div><div class="lieu-yr">2008 — 1er tiers-lieu</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--bleu)"></div><div class="lieu-name">La REcyclerie</div><div class="lieu-loc">Paris 18e</div><div class="lieu-yr">Petite Ceinture</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--sauge)"></div><div class="lieu-name">Le Pavillon des Canaux</div><div class="lieu-loc">Paris 19e</div><div class="lieu-yr">Canal de l'Ourcq</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--peche)"></div><div class="lieu-name">La Cité Fertile</div><div class="lieu-loc">Pantin 93</div><div class="lieu-yr">2018 · 1M visites/an</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--paille)"></div><div class="lieu-name">Bar à Bulles</div><div class="lieu-loc">Paris 18e · Cité Véron</div><div class="lieu-yr">Jardin suspendu</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--cel)"></div><div class="lieu-name">La Halle aux Poissons</div><div class="lieu-loc">Le Havre</div><div class="lieu-yr">Patrimoine Perret</div></div>
+      <div class="lieu"><div class="lieu-accent" style="background:var(--foret)"></div><div class="lieu-name">Campus des Tiers-Lieux</div><div class="lieu-loc">Paris & territoires</div><div class="lieu-yr">École · Conseil</div></div>
+      <div class="lieu" style="grid-column:span 2;background:rgba(38,96,65,0.05);border:1.5px dashed rgba(38,96,65,0.2);display:flex;align-items:center;justify-content:center">
+        <a href="medias.html" style="font-family:'Caveat',cursive;font-size:1.1rem;color:var(--foret);text-decoration:none">Voir tous les lieux & médias →</a>
+      </div>
+    </div>
+
+    <!-- Citation -->
+    <div class="lieux-cite reveal">
+      <!-- Botanical ghost in citation -->
+      <svg style="position:absolute;right:-30px;top:-20px;width:200px;opacity:0.12;pointer-events:none" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="100" cy="120" rx="72" ry="105" fill="white" transform="rotate(6 100 120)"/>
+        <ellipse cx="80" cy="97" rx="44" ry="68" fill="white" opacity="0.7" transform="rotate(6 80 97)"/>
+      </svg>
+      <div class="cite-mark">"</div>
+      <div>
+        <p class="cite-text">Les tiers-lieux vont sauver le monde.</p>
+        <p class="cite-src">✦ Stéphane Vatinel — Actu-Juridique, 2022</p>
+      </div>
+    </div>
+
+    <!-- Stats -->
+      <div class="lieux-stats reveal">
+      <div class="lstat"><div class="lstat-val" style="color:var(--foret)">1M+</div><div class="lstat-lbl">Visiteurs / an dans les lieux Sinny & Ooko</div></div>
+      <div class="lstat"><div class="lstat-val" style="color:var(--orange)">500</div><div class="lstat-lbl">Personnes formées, 150 tiers-lieux ouverts</div></div>
+      <div class="lstat"><div class="lstat-val" style="color:var(--bleu)">35</div><div class="lstat-lbl">Années de pratique culturelle & territoriale</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MOUVEMENT ═══ -->
+<section id="mouvement" style="background:var(--encre);padding:6rem 4rem;position:relative;overflow:hidden;">
+  <!-- Botanical ghost white -->
+  <svg style="position:absolute;right:-40px;top:0;width:280px;opacity:0.06;pointer-events:none" viewBox="0 0 280 360" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="140" cy="180" rx="100" ry="145" fill="white" transform="rotate(-5 140 180)"/>
+    <ellipse cx="115" cy="148" rx="62" ry="95" fill="white" opacity="0.7" transform="rotate(-5 115 148)"/>
+    <ellipse cx="138" cy="105" rx="26" ry="40" fill="var(--encre)" transform="rotate(-5 138 105)"/>
+    <circle cx="218" cy="52" r="24" fill="white" opacity="0.8"/>
+    <circle cx="200" cy="36" r="13" fill="white"/>
+    <circle cx="236" cy="38" r="10" fill="white" opacity="0.9"/>
+  </svg>
+
+  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:6rem;align-items:center;" class="reveal">
+    <div>
+      <div style="font-family:'Caveat',cursive;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--peche);margin-bottom:1.5rem;">Un mouvement, pas une marque</div>
+      <h2 style="font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:400;line-height:1.15;color:white;margin-bottom:2rem;">
+        Ces lieux<br>ne sont pas<br><em style="color:var(--peche)">isolés</em>
+      </h2>
+      <p style="font-size:1rem;line-height:1.85;color:rgba(255,255,255,0.55);margin-bottom:2.5rem;">
+        Partout en France, des lieux pionniers ouvrent des chemins. Darwin à Bordeaux, la Halle Tropisme à Montpellier, l'Épopée à Marseille, Plantation à Paris… Tous participent à un même mouvement de fond : redonner du sens aux territoires.
+      </p>
+      <p style="font-size:0.9rem;font-style:italic;line-height:1.7;color:rgba(255,255,255,0.4);border-left:2px solid var(--orange);padding-left:1.2rem;">
+        « Ces lieux ne sont pas une mode. Ils sont peut-être l'une des réponses les plus crédibles aux grands déséquilibres contemporains. »
+        <span style="display:block;margin-top:0.5rem;font-style:normal;font-size:0.75rem;letter-spacing:0.1em;color:var(--peche)">— Stéphane Vatinel, LinkedIn 2026</span>
+      </p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">🏭</div>
+        <div style="font-size:0.9rem;font-weight:500;color:white;margin-bottom:0.4rem;">Friches & gares</div>
+        <div style="font-size:0.78rem;line-height:1.6;color:rgba(255,255,255,0.4);">Transformer le patrimoine oublié en levier d'attractivité</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">🌱</div>
+        <div style="font-size:0.9rem;font-weight:500;color:white;margin-bottom:0.4rem;">Écologie vécue</div>
+        <div style="font-size:0.78rem;line-height:1.6;color:rgba(255,255,255,0.4);">Apprendre autrement, par l'expérience du lieu</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">🤝</div>
+        <div style="font-size:0.9rem;font-weight:500;color:white;margin-bottom:0.4rem;">Lien humain</div>
+        <div style="font-size:0.78rem;line-height:1.6;color:rgba(255,255,255,0.4);">Des espaces où des gens qui ne se croiseraient jamais se rencontrent</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">⚖️</div>
+        <div style="font-size:0.9rem;font-weight:500;color:white;margin-bottom:0.4rem;">Équilibre réel</div>
+        <div style="font-size:0.78rem;line-height:1.6;color:rgba(255,255,255,0.4);">Vision & rigueur : ni cynisme financier, ni idéalisme désorganisé</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ METHODE ═══ -->
+<section id="methode" class="section-methode" aria-labelledby="methode-heading">
+  <svg aria-hidden="true" style="position:absolute;right:-30px;top:15%;width:180px;opacity:0.22;pointer-events:none;animation:float1 9s ease-in-out infinite 2s" viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="90" cy="120" rx="65" ry="95" fill="#ADC9B8" transform="rotate(6 90 120)"/>
+    <ellipse cx="72" cy="97" rx="40" ry="62" fill="#266041" opacity="0.7" transform="rotate(6 72 97)"/>
+    <ellipse cx="88" cy="66" rx="18" ry="27" fill="#F5EFE0" transform="rotate(6 88 66)"/>
+    <circle cx="145" cy="35" r="15" fill="#E47E3D" opacity="0.85"/>
+    <circle cx="133" cy="22" r="8" fill="#FEBE85"/>
+    <circle cx="158" cy="24" r="6" fill="#FEBE85" opacity="0.9"/>
+  </svg>
+  <svg style="position:absolute;left:-20px;bottom:10%;width:150px;opacity:0.2;pointer-events:none;animation:float2 12s ease-in-out infinite" viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="75" cy="100" rx="55" ry="78" fill="#E6D67F" opacity="0.8" transform="rotate(20 75 100)"/>
+    <ellipse cx="58" cy="80" rx="34" ry="50" fill="#C4D4A4" opacity="0.7" transform="rotate(20 58 80)"/>
+    <circle cx="120" cy="35" r="13" fill="#6AA2B9" opacity="0.8"/>
+    <circle cx="108" cy="23" r="7" fill="#FEBE85" opacity="0.9"/>
+  </svg>
+
+  <div class="methode-inner">
+    <div class="methode-content reveal">
+      <p class="s-tag">Approche</p>
+      <h2 class="s-title" id="methode-heading">Une méthode forgée<br>dans <em>l'action collective</em></h2>
+      <p style="font-size:1rem;line-height:1.85;color:var(--gris);margin:1.2rem 0 0;font-style:italic">
+        Pas de recette universelle. Mais trois ingrédients qui ne trompent jamais : l'atmosphère, l'accueil, la programmation. Et toujours : des équipes, des habitants, des partenaires qui co-construisent.
+      </p>
+      <div class="methode-steps">
+        <div class="mstep">
+          <div class="mstep-circle" style="background:var(--bleu)">1</div>
+          <div><div class="mstep-title">Diagnostic territorial</div><div class="mstep-desc">Comprendre les dynamiques locales, les besoins réels et les contraintes du foncier.</div></div>
+        </div>
+        <div class="mstep">
+          <div class="mstep-circle" style="background:var(--rose)">2</div>
+          <div><div class="mstep-title">Vision & récit de lieu</div><div class="mstep-desc">Définir l'âme du projet : identité, valeurs, publics et le récit qui le rendra désirable.</div></div>
+        </div>
+        <div class="mstep">
+          <div class="mstep-circle" style="background:var(--orange)">3</div>
+          <div><div class="mstep-title">Modèle d'exploitation</div><div class="mstep-desc">Construire un équilibre économique réaliste entre ressources propres et soutiens publics.</div></div>
+        </div>
+        <div class="mstep">
+          <div class="mstep-circle" style="background:var(--foret)">4</div>
+          <div><div class="mstep-title">Activation & transmission</div><div class="mstep-desc">Accompagner l'ouverture et former les équipes pour une autonomie pérenne.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="methode-visual reveal">
+      <div class="methode-card">
+        <div class="mcard-title">🌿 Les 3 piliers d'un lieu vivant</div>
+        <div class="mpillar">
+          <div class="mpillar-icon" style="background:rgba(106,162,185,0.12)">🌊</div>
+          <div class="mpillar-body">
+            <strong>L'atmosphère</strong>
+            <span>Un lieu doit se sentir avant de se comprendre. L'ambiance, les matières, la lumière — tout parle avant que quiconque ouvre la bouche.</span>
+          </div>
+        </div>
+        <div class="mpillar">
+          <div class="mpillar-icon" style="background:rgba(199,134,141,0.12)">🤗</div>
+          <div class="mpillar-body">
+            <strong>L'accueil</strong>
+            <span>La qualité humaine du premier contact détermine si un visiteur reviendra. C'est la chose la moins scalable et la plus précieuse.</span>
+          </div>
+        </div>
+        <div class="mpillar">
+          <div class="mpillar-icon" style="background:rgba(230,214,127,0.15)">🎭</div>
+          <div class="mpillar-body">
+            <strong>La programmation</strong>
+            <span>Ce qui se passe dans un lieu définit ce qu'il est. Une programmation juste crée la communauté et fidélise durablement.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact" class="section-contact" aria-labelledby="contact-heading">
+  <svg aria-hidden="true" style="position:absolute;right:6%;top:5%;width:200px;opacity:0.22;pointer-events:none;animation:float2 10s ease-in-out infinite 1s" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="100" cy="130" rx="72" ry="105" fill="#266041" transform="rotate(-5 100 130)"/>
+    <ellipse cx="80" cy="105" rx="44" ry="68" fill="#ADC9B8" transform="rotate(-5 80 105)"/>
+    <ellipse cx="96" cy="72" rx="20" ry="30" fill="#FBF8F1" transform="rotate(-5 96 72)"/>
+    <circle cx="160" cy="40" r="16" fill="#E47E3D" opacity="0.85"/>
+    <circle cx="147" cy="27" r="9" fill="#FEBE85"/>
+    <circle cx="174" cy="29" r="7" fill="#FEBE85" opacity="0.9"/>
+    <circle cx="158" cy="20" r="8" fill="#E47E3D" opacity="0.7"/>
+    <ellipse cx="30" cy="200" rx="36" ry="54" fill="#E6D67F" opacity="0.7" transform="rotate(18 30 200)"/>
+    <circle cx="180" cy="210" r="9" fill="#C7868D" opacity="0.85"/>
+    <circle cx="192" cy="195" r="6" fill="#C7868D"/>
+  </svg>
+  <svg style="position:absolute;left:4%;bottom:8%;width:160px;opacity:0.2;pointer-events:none;animation:float1 13s ease-in-out infinite 2s" viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="80" cy="105" rx="58" ry="85" fill="#6AA2B9" opacity="0.7" transform="rotate(12 80 105)"/>
+    <ellipse cx="62" cy="84" rx="36" ry="55" fill="#C4D4A4" opacity="0.7" transform="rotate(12 62 84)"/>
+    <circle cx="130" cy="35" r="14" fill="#C7868D" opacity="0.85"/>
+    <circle cx="118" cy="23" r="8" fill="#FEBE85"/>
+  </svg>
+
+  <div class="contact-inner">
+    <div class="contact-header reveal">
+      <p class="s-tag" style="justify-content:center">Co-construire</p>
+      <h2 class="s-title" id="contact-heading">Votre territoire<br>mérite une <em>vie</em></h2>
+      <p>Collectivité, aménageur, investisseur — si vous portez un projet d'espace et cherchez à lui donner du sens, c'est ici que commence la collaboration. Vous apportez le territoire et la vision, nous apportons 35 ans d'expérience collective.</p>
+    </div>
+    <div class="contact-form reveal">
+      <div class="form-grid">
+        <div class="ff"><label>Prénom & Nom</label><input type="text" placeholder="Marie Dupont"></div>
+        <div class="ff"><label>Organisation</label><input type="text" placeholder="Ville de Lyon / Grand Paris Aménagement"></div>
+        <div class="ff"><label>Email</label><input type="email" placeholder="marie@organisation.fr"></div>
+        <div class="ff"><label>Type de projet</label>
+          <select>
+            <option value="">Sélectionner…</option>
+            <option>Friche à réhabiliter</option>
+            <option>Création de tiers-lieu</option>
+            <option>Stratégie culturelle territoriale</option>
+            <option>Formation / Campus</option>
+            <option>Conférence / Intervention</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="ff full"><label>Décrivez votre territoire & vos enjeux</label><textarea placeholder="Le lieu, le territoire, les habitants concernés, vos ambitions… Soyez libres — c'est ici que ça commence."></textarea></div>
+      </div>
+      <div class="form-foot">
+        <button class="btn-send" onclick="this.textContent='Message envoyé ✓';this.style.background='var(--kaki)';setTimeout(()=>{this.textContent='Démarrons ensemble';this.style.background=''},3000)">Démarrons ensemble</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-sig">Stéphane Vatinel</div>
+  <ul class="footer-links">
+    <li><a href="#about">Vision</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#lieux">Lieux</a></li>
+    <li><a href="#mouvement">Mouvement</a></li>
+    <li><a href="#methode">Méthode</a></li>
+    <li><a href="medias.html">Médias</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Stéphane Vatinel</div>
+</footer>
+
+<script>
+// ── TOUCH DETECTION — disable custom cursor on mobile/touch ──
+const isTouchDevice = window.matchMedia('(hover:none)').matches;
+const cur = document.getElementById('cur');
+const ring = document.getElementById('ring');
+
+if (!isTouchDevice) {
+  document.addEventListener('mousemove', e => {
+    cur.style.left = e.clientX + 'px';
+    cur.style.top = e.clientY + 'px';
+    setTimeout(() => {
+      ring.style.left = e.clientX + 'px';
+      ring.style.top = e.clientY + 'px';
+    }, 60);
+  });
+  document.querySelectorAll('a,button,.svc,.imp,.lieu').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      ring.style.width = '56px'; ring.style.height = '56px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1.5)';
+      cur.style.background = 'var(--orange)';
+    });
+    el.addEventListener('mouseleave', () => {
+      ring.style.width = '36px'; ring.style.height = '36px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1)';
+      cur.style.background = 'var(--foret)';
+    });
+  });
+} else {
+  if(cur) cur.style.display = 'none';
+  if(ring) ring.style.display = 'none';
+  document.body.style.cursor = 'auto';
+}
+
+// ── HAMBURGER MENU ──
+const burger = document.getElementById('burger');
+const mobileNav = document.getElementById('mobile-nav');
+
+function openMobileNav() {
+  burger.classList.add('open');
+  mobileNav.classList.add('open');
+  mobileNav.setAttribute('aria-hidden', 'false');
+  burger.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMobileNav() {
+  burger.classList.remove('open');
+  mobileNav.classList.remove('open');
+  mobileNav.setAttribute('aria-hidden', 'true');
+  burger.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+
+burger.addEventListener('click', () => {
+  burger.classList.contains('open') ? closeMobileNav() : openMobileNav();
+});
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && mobileNav.classList.contains('open')) closeMobileNav();
+});
+
+// ── ACTIVE NAV HIGHLIGHT on scroll ──
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+const navObs = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+sections.forEach(s => navObs.observe(s));
+
+// ── SCROLL REVEAL ──
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      obs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.07 });
+reveals.forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

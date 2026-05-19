@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ══ SEO ══ -->
+<title>Liens & Médias — Stéphane Vatinel, expert tiers-lieux</title>
+<meta name="description" content="Presse, podcasts et portfolio des lieux créés par Stéphane Vatinel : La REcyclerie, La Cité Fertile, Le Pavillon des Canaux, La Machine du Moulin Rouge et plus. 35 ans de pratique documentée.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.stephane-vatinel.fr/medias.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.stephane-vatinel.fr/medias.html">
+<meta property="og:title" content="Liens & Médias — Stéphane Vatinel">
+<meta property="og:description" content="30 ans de pratique documentés par la presse, les podcasts et les médias spécialisés. Des lieux qui continuent de transformer leurs territoires.">
+<meta property="og:locale" content="fr_FR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bleu:   #6AA2B9;
+  --kaki:   #708472;
+  --rose:   #C7868D;
+  --orange: #E47E3D;
+  --sauge:  #ADC9B8;
+  --peche:  #FEBE85;
+  --foret:  #266041;
+  --cel:    #C4D4A4;
+  --paille: #E6D67F;
+  --creme:  #FBF8F1;
+  --papier: #F5EFE0;
+  --encre:  #2A2820;
+  --gris:   #7A7468;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+  background:var(--creme);
+  color:var(--encre);
+  font-family:'DM Sans',sans-serif;
+  font-weight:300;
+  overflow-x:hidden;
+  cursor:none;
+}
+
+/* ── CUSTOM CURSOR ── */
+.cursor{
+  position:fixed;width:12px;height:12px;
+  background:var(--foret);border-radius:50%;
+  pointer-events:none;z-index:9999;
+  transform:translate(-50%,-50%);
+  transition:transform 0.15s ease,background 0.3s;
+  mix-blend-mode:multiply;
+}
+.cursor-ring{
+  position:fixed;width:36px;height:36px;
+  border:1.5px solid var(--orange);border-radius:50%;
+  pointer-events:none;z-index:9998;
+  transform:translate(-50%,-50%);
+  transition:transform 0.35s ease,width 0.3s,height 0.3s;
+}
+
+/* ── PAPER TEXTURE ── */
+body::before{
+  content:'';position:fixed;inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events:none;z-index:500;opacity:0.6;
+}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:300;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.2rem 3rem;
+  background:rgba(251,248,241,0.93);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(173,201,184,0.25);
+}
+.nav-sig{
+  font-family:'Caveat',cursive;
+  font-size:1.5rem;font-weight:700;
+  color:var(--foret);letter-spacing:0.01em;line-height:1;
+}
+.nav-sub{
+  font-size:0.6rem;font-weight:500;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--gris);margin-top:2px;
+}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);text-decoration:none;
+  transition:color 0.3s;position:relative;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-3px;left:0;right:0;
+  height:1.5px;background:var(--orange);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 0.3s;
+}
+.nav-links a:hover{color:var(--foret);}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1);}
+.nav-links a.active{color:var(--foret);}
+.nav-btn{
+  background:var(--foret);color:white!important;
+  padding:0.6rem 1.4rem;border-radius:50px;
+  font-size:0.7rem!important;transition:all 0.3s!important;
+}
+.nav-btn::after{display:none!important;}
+.nav-btn:hover{background:var(--orange)!important;transform:translateY(-1px);}
+
+/* ── PAGE HERO ── */
+.page-hero{
+  padding:9rem 4rem 5rem;
+  position:relative;overflow:hidden;
+  background:linear-gradient(135deg, var(--creme) 0%, var(--papier) 100%);
+}
+.page-hero-inner{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:6rem;align-items:end;
+}
+.page-eyebrow{
+  font-family:'Caveat',cursive;
+  font-size:1.2rem;color:var(--orange);
+  display:flex;align-items:center;gap:0.8rem;
+  margin-bottom:1.2rem;
+}
+.page-eyebrow::before{
+  content:'';display:block;width:24px;height:2px;
+  background:var(--orange);border-radius:2px;
+}
+.page-hero h1{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(2.8rem,5vw,5rem);
+  font-weight:700;line-height:1.05;
+  letter-spacing:-0.02em;
+  color:var(--encre);
+}
+.page-hero h1 em{font-style:italic;color:var(--foret);}
+.page-hero-desc{
+  font-size:1.05rem;line-height:1.9;
+  color:var(--gris);
+  border-left:3px solid rgba(228,126,61,0.35);
+  padding-left:1.5rem;
+  font-style:italic;
+}
+
+/* ── STRIP ── */
+.strip{
+  background:var(--encre);
+  padding:1rem 0;overflow:hidden;
+}
+.strip-track{
+  display:flex;gap:3rem;
+  animation:marquee 22s linear infinite;
+  white-space:nowrap;width:max-content;
+}
+.strip-item{
+  display:flex;align-items:center;gap:0.7rem;
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:rgba(255,255,255,0.55);
+}
+.strip-item span{
+  width:4px;height:4px;border-radius:50%;
+  background:var(--peche);flex-shrink:0;
+}
+
+/* ── SECTION COMMONS ── */
+.s-tag{
+  font-family:'Caveat',cursive;
+  font-size:1.1rem;color:var(--orange);
+  display:flex;align-items:center;gap:0.6rem;
+  margin-bottom:0.8rem;
+}
+.s-tag::before{content:'✦';font-size:0.7rem;animation:spin 8s linear infinite;}
+.s-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,2.8vw,2.4rem);
+  font-weight:700;line-height:1.15;
+  color:var(--encre);
+}
+.s-title em{font-style:italic;color:var(--foret);}
+
+/* ── TABS SECTION ── */
+.tabs-section{
+  padding:5rem 4rem 3rem;
+  position:relative;
+  max-width:1100px;margin:0 auto;
+}
+
+/* ── TABS ── */
+.tabs-bar{
+  display:flex;gap:0;
+  border-bottom:2px solid rgba(112,132,114,0.15);
+  margin-bottom:4rem;
+  flex-wrap:wrap;
+}
+.tab-btn{
+  background:none;border:none;border-bottom:2px solid transparent;
+  margin-bottom:-2px;
+  padding:0.9rem 2rem;
+  font-family:'DM Sans',sans-serif;
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--gris);cursor:pointer;
+  transition:all 0.3s;
+}
+.tab-btn:hover{color:var(--foret);}
+.tab-btn.active{
+  color:var(--foret);
+  border-bottom-color:var(--orange);
+}
+
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+
+/* ── PRESSE GRID ── */
+.press-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;
+  margin-bottom:3rem;
+}
+.press-card{
+  background:white;border-radius:20px;
+  padding:2rem;
+  display:flex;flex-direction:column;gap:0.9rem;
+  box-shadow:0 4px 24px rgba(44,40,32,0.06);
+  border:1.5px solid transparent;
+  text-decoration:none;color:inherit;
+  transition:all 0.3s;position:relative;overflow:hidden;
+}
+.press-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  border-radius:20px 20px 0 0;background:var(--sauge);
+  transition:background 0.3s;
+}
+.press-card:nth-child(2)::before{background:var(--bleu);}
+.press-card:nth-child(3)::before{background:var(--orange);}
+.press-card:nth-child(4)::before{background:var(--rose);}
+.press-card:nth-child(5)::before{background:var(--paille);}
+.press-card:nth-child(6)::before{background:var(--kaki);}
+.press-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 40px rgba(44,40,32,0.12);
+  border-color:rgba(173,201,184,0.4);
+}
+.press-source{
+  font-size:0.62rem;font-weight:500;
+  letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--orange);
+}
+.press-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1rem;font-weight:700;
+  line-height:1.4;color:var(--encre);
+}
+.press-excerpt{
+  font-size:0.85rem;line-height:1.75;
+  color:var(--gris);flex-grow:1;
+}
+.press-meta{
+  display:flex;justify-content:space-between;align-items:center;
+  padding-top:1rem;
+  border-top:1px solid rgba(112,132,114,0.12);
+  margin-top:auto;
+}
+.press-date{
+  font-family:'Caveat',cursive;
+  font-size:0.95rem;color:var(--gris);
+}
+.press-arrow{
+  font-size:0.85rem;color:var(--orange);
+  transition:transform 0.3s;
+}
+.press-card:hover .press-arrow{transform:translateX(4px);}
+
+/* ── FEATURED QUOTE ── */
+.featured-quote{
+  background:var(--encre);
+  border-radius:24px;
+  padding:3rem 3.5rem;
+  margin-bottom:3rem;
+  position:relative;overflow:hidden;
+}
+.fq-mark{
+  font-family:'Libre Baskerville',serif;
+  font-size:8rem;line-height:0.6;
+  color:var(--orange);opacity:0.25;
+  position:absolute;top:1.5rem;left:2rem;
+}
+.fq-text{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.1rem,2vw,1.5rem);
+  font-style:italic;font-weight:400;
+  line-height:1.65;color:white;
+  max-width:700px;position:relative;z-index:1;
+}
+.fq-source{
+  font-family:'Caveat',cursive;
+  font-size:1rem;color:var(--peche);
+  margin-top:1.2rem;
+}
+
+/* ── PODCAST LIST ── */
+.podcast-list{
+  display:flex;flex-direction:column;gap:1px;
+  background:rgba(112,132,114,0.1);
+  border-radius:20px;overflow:hidden;
+  margin-bottom:3rem;
+}
+.podcast-card{
+  background:white;
+  padding:1.8rem 2.2rem;
+  display:grid;grid-template-columns:52px 1fr auto;
+  gap:1.8rem;align-items:center;
+  text-decoration:none;color:inherit;
+  transition:background 0.3s;
+}
+.podcast-card:hover{background:var(--papier);}
+.podcast-icon{
+  width:52px;height:52px;
+  background:var(--papier);
+  border:1.5px solid rgba(38,96,65,0.18);
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;transition:all 0.3s;
+}
+.podcast-card:hover .podcast-icon{
+  background:var(--foret);
+  border-color:var(--foret);
+}
+.podcast-icon svg{width:20px;height:20px;fill:var(--foret);transition:fill 0.3s;}
+.podcast-card:hover .podcast-icon svg{fill:white;}
+.podcast-show{
+  font-size:0.62rem;font-weight:500;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--orange);margin-bottom:0.3rem;
+}
+.podcast-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:0.95rem;font-weight:400;
+  line-height:1.4;color:var(--encre);
+}
+.podcast-meta{
+  font-family:'Caveat',cursive;
+  font-size:0.9rem;color:var(--gris);
+  white-space:nowrap;text-align:right;
+}
+
+/* ── LIEUX SECTION ── */
+.lieux-section{margin-bottom:4rem;}
+.lieux-section-header{
+  display:flex;align-items:baseline;gap:1.5rem;
+  margin-bottom:1.5rem;
+  padding-bottom:1rem;
+  border-bottom:1.5px solid rgba(173,201,184,0.25);
+}
+.lieux-section-title{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.4rem;font-weight:700;color:var(--encre);
+}
+.lieux-section-title em{font-style:italic;color:var(--foret);}
+.lieux-section-count{
+  font-family:'Caveat',cursive;
+  font-size:0.95rem;color:var(--gris);
+}
+.lieux-section-sub{
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);margin-left:auto;
+}
+
+.lieux-table{
+  display:flex;flex-direction:column;
+  gap:1px;background:rgba(112,132,114,0.1);
+  border-radius:20px;overflow:hidden;
+}
+.lieu-row{
+  background:white;
+  padding:1.4rem 2rem;
+  display:grid;
+  grid-template-columns:2fr 1.2fr 1fr 100px;
+  gap:2rem;align-items:center;
+  text-decoration:none;color:inherit;
+  transition:background 0.3s;
+}
+.lieu-row.header-row{
+  background:var(--papier);
+  cursor:default;
+  padding:0.7rem 2rem;
+}
+.lieu-row.header-row:hover{background:var(--papier);}
+.lieu-row:hover{background:var(--papier);}
+.lieu-row-name{
+  display:flex;align-items:center;gap:0.8rem;
+}
+.lieu-dot{
+  width:8px;height:8px;border-radius:50%;flex-shrink:0;
+}
+.lieu-name-text{
+  font-family:'Libre Baskerville',serif;
+  font-size:0.95rem;font-weight:700;color:var(--encre);
+}
+.lieu-type{
+  font-size:0.8rem;font-style:italic;
+  color:var(--gris);line-height:1.4;
+}
+.lieu-location{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--kaki);
+}
+.lieu-period{
+  font-family:'Caveat',cursive;
+  font-size:0.9rem;color:var(--gris);
+}
+.lieu-link{
+  font-size:0.62rem;font-weight:500;
+  letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--foret);text-decoration:none;
+  display:flex;align-items:center;gap:0.3rem;
+  justify-content:flex-end;
+  transition:color 0.3s;
+}
+.lieu-row:hover .lieu-link{color:var(--orange);}
+.col-label{
+  font-size:0.58rem;font-weight:500;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--kaki);opacity:0.6;
+}
+
+/* ── BACK + CTA ── */
+.page-cta{
+  background:var(--encre);
+  border-radius:24px;
+  padding:3rem 3.5rem;
+  display:flex;justify-content:space-between;align-items:center;
+  gap:2rem;
+  margin-top:2rem;
+}
+.page-cta-text{
+  font-family:'Libre Baskerville',serif;
+  font-size:1.5rem;font-weight:400;
+  font-style:italic;color:white;line-height:1.4;
+}
+.page-cta-text em{color:var(--peche);font-style:normal;font-weight:700;}
+.btn-cta-main{
+  background:var(--orange);color:white;
+  text-decoration:none;
+  padding:1rem 2.5rem;border-radius:50px;
+  font-size:0.75rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  white-space:nowrap;transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(228,126,61,0.35);
+}
+.btn-cta-main:hover{background:var(--foret);transform:translateY(-2px);}
+.btn-back{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  font-size:0.72rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--kaki);text-decoration:none;
+  padding:1rem 0 3rem;
+  transition:color 0.3s;
+}
+.btn-back:hover{color:var(--foret);}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--encre);color:rgba(255,255,255,0.5);
+  padding:2.5rem 4rem;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.footer-sig{font-family:'Caveat',cursive;font-size:1.4rem;color:white;}
+.footer-links{display:flex;gap:2rem;list-style:none;}
+.footer-links a{
+  font-size:0.65rem;font-weight:500;
+  letter-spacing:0.1em;text-transform:uppercase;
+  color:rgba(255,255,255,0.4);text-decoration:none;
+  transition:color 0.3s;
+}
+.footer-links a:hover{color:var(--peche);}
+.footer-copy{font-size:0.62rem;color:rgba(255,255,255,0.25);}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.8s ease,transform 0.8s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+@keyframes float1{0%,100%{transform:translateY(0) rotate(0deg);}40%{transform:translateY(-14px) rotate(2.5deg);}70%{transform:translateY(6px) rotate(-1.5deg);}}
+@keyframes float2{0%,100%{transform:translateY(0) rotate(0deg);}30%{transform:translateY(10px) rotate(-2deg);}70%{transform:translateY(-8px) rotate(1.5deg);}}
+@keyframes float3{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-6px) scale(1.02);}}
+@keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ── HAMBURGER ── */
+.burger{
+  display:none;flex-direction:column;gap:5px;
+  background:none;border:none;cursor:pointer;
+  padding:6px;z-index:400;
+}
+.burger span{
+  display:block;width:24px;height:2px;
+  background:var(--foret);border-radius:2px;
+  transition:all 0.3s ease;transform-origin:center;
+}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0);}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-nav{
+  display:none;position:fixed;inset:0;z-index:200;
+  background:rgba(251,248,241,0.98);backdrop-filter:blur(20px);
+  flex-direction:column;align-items:center;justify-content:center;
+  gap:0;opacity:0;transition:opacity 0.3s ease;
+}
+.mobile-nav.open{opacity:1;}
+.mobile-nav a{
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(1.8rem,5vw,2.4rem);
+  font-weight:400;font-style:italic;
+  color:var(--encre);text-decoration:none;
+  padding:0.7rem 0;
+  border-bottom:1px solid rgba(173,201,184,0.2);
+  width:70%;text-align:center;
+  transition:color 0.2s;
+}
+.mobile-nav a:hover{color:var(--orange);}
+.mobile-nav a.mob-cta{
+  font-family:'DM Sans',sans-serif;font-style:normal;
+  font-size:0.85rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;
+  background:var(--foret);color:white!important;
+  padding:1rem 2.5rem;border-radius:50px;margin-top:1.5rem;border:none;
+}
+
+/* ── TABLETTE 769px–1024px ── */
+@media(min-width:769px) and (max-width:1024px){
+  nav{padding:1.1rem 2rem;}
+  .page-hero{padding:8rem 2.5rem 4rem;}
+  .page-hero-inner{grid-template-columns:1fr;gap:2rem;}
+  .tabs-section{padding:4rem 2.5rem;}
+  .press-grid{grid-template-columns:1fr 1fr;}
+  .podcast-card{grid-template-columns:52px 1fr;}
+  .podcast-meta{display:none;}
+  .lieu-row{grid-template-columns:1.5fr 1fr 80px;}
+  .lieu-type{display:none;}
+  footer{padding:2.5rem 2rem;}
+}
+
+/* ── MOBILE ── */
+@media(max-width:768px){
+  .burger{display:flex;}
+  .mobile-nav{display:flex;}
+  nav{padding:1rem 1.5rem;}
+  .nav-links{display:none;}
+
+  .page-hero{padding:7rem 1.5rem 3rem;}
+  .page-hero-inner{grid-template-columns:1fr;gap:2rem;}
+
+  .tabs-section{padding:3rem 1.5rem 2rem;}
+  .tabs-bar{overflow-x:auto;white-space:nowrap;flex-wrap:nowrap;}
+  .tab-btn{padding:0.75rem 1.2rem;}
+
+  .press-grid{grid-template-columns:1fr;}
+  .featured-quote{padding:2rem 1.8rem;}
+  .fq-text{font-size:1rem;}
+
+  .podcast-card{
+    grid-template-columns:44px 1fr;
+    gap:1rem;
+  }
+  .podcast-meta{display:none;}
+
+  .lieu-row{
+    grid-template-columns:1fr auto;
+    gap:1rem;
+    padding:1.2rem 1.2rem;
+  }
+  .lieu-type,.lieu-location,.lieu-period{display:none;}
+  .lieu-row.header-row{display:none;}
+
+  .page-cta{flex-direction:column;text-align:center;padding:2rem 1.5rem;}
+  footer{flex-direction:column;gap:1.5rem;text-align:center;padding:2rem 1.5rem;}
+  .footer-links{flex-wrap:wrap;justify-content:center;gap:1.2rem;}
+}
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="ring"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav aria-label="Navigation principale">
+  <a href="stephane-vatinel-v5.html" style="text-decoration:none;">
+    <div class="nav-sig">Stéphane Vatinel</div>
+    <div class="nav-sub">Directeur artistique de territoire</div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="stephane-vatinel-v5.html#about">Vision</a></li>
+    <li><a href="stephane-vatinel-v5.html#impact">Impact</a></li>
+    <li><a href="stephane-vatinel-v5.html#lieux">Lieux</a></li>
+    <li><a href="stephane-vatinel-v5.html#mouvement">Mouvement</a></li>
+    <li><a href="stephane-vatinel-v5.html#methode">Méthode</a></li>
+    <li><a href="medias.html" class="active">Médias</a></li>
+    <li><a href="stephane-vatinel-v5.html#contact" class="nav-btn">Construisons ensemble</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Menu mobile -->
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <a href="stephane-vatinel-v5.html#about" onclick="closeMobileNav()">Vision</a>
+  <a href="stephane-vatinel-v5.html#impact" onclick="closeMobileNav()">Impact</a>
+  <a href="stephane-vatinel-v5.html#lieux" onclick="closeMobileNav()">Lieux</a>
+  <a href="stephane-vatinel-v5.html#mouvement" onclick="closeMobileNav()">Mouvement</a>
+  <a href="stephane-vatinel-v5.html#methode" onclick="closeMobileNav()">Méthode</a>
+  <a href="medias.html" onclick="closeMobileNav()">Médias</a>
+  <a href="stephane-vatinel-v5.html#contact" class="mob-cta" onclick="closeMobileNav()">Construisons ensemble</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══ -->
+<section class="page-hero" aria-label="Références et médias de Stéphane Vatinel">
+
+  <!-- Botanical top-right -->
+  <svg aria-hidden="true" style="position:absolute;top:-20px;right:-30px;width:360px;opacity:0.6;pointer-events:none;animation:float1 9s ease-in-out infinite" viewBox="0 0 360 440" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="180" cy="200" rx="100" ry="148" fill="#ADC9B8" opacity="0.5" transform="rotate(8 180 200)"/>
+    <ellipse cx="158" cy="172" rx="62" ry="96" fill="#266041" opacity="0.4" transform="rotate(8 158 172)"/>
+    <ellipse cx="174" cy="128" rx="24" ry="36" fill="#F5EFE0" opacity="0.9" transform="rotate(8 174 128)"/>
+    <ellipse cx="196" cy="198" rx="18" ry="27" fill="#F5EFE0" opacity="0.9" transform="rotate(8 196 198)"/>
+    <path d="M172 320 Q170 258 168 188" stroke="#266041" stroke-width="3" fill="none" opacity="0.35"/>
+    <ellipse cx="55" cy="280" rx="42" ry="62" fill="#E6D67F" opacity="0.6" transform="rotate(22 55 280)"/>
+    <circle cx="288" cy="72" r="20" fill="#E47E3D" opacity="0.8"/>
+    <circle cx="272" cy="57" r="11" fill="#FEBE85" opacity="0.9"/>
+    <circle cx="305" cy="59" r="9" fill="#FEBE85" opacity="0.85"/>
+    <ellipse cx="34" cy="130" rx="28" ry="44" fill="#ADC9B8" opacity="0.65" transform="rotate(-30 34 130)"/>
+    <circle cx="316" cy="240" r="9" fill="#C7868D" opacity="0.85"/>
+    <circle cx="328" cy="224" r="6" fill="#C7868D" opacity="0.75"/>
+    <ellipse cx="90" cy="55" rx="18" ry="30" fill="#C4D4A4" opacity="0.7" transform="rotate(-45 90 55)"/>
+  </svg>
+
+  <!-- Botanical bottom-left -->
+  <svg aria-hidden="true" style="position:absolute;bottom:-20px;left:5%;width:220px;opacity:0.45;pointer-events:none;animation:float2 12s ease-in-out infinite 1s" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="110" cy="90" rx="80" ry="52" fill="#ADC9B8" opacity="0.55" transform="rotate(10 110 90)"/>
+    <ellipse cx="60" cy="65" rx="48" ry="68" fill="#E6D67F" opacity="0.5" transform="rotate(-18 60 65)"/>
+    <ellipse cx="168" cy="45" rx="32" ry="50" fill="#266041" opacity="0.4" transform="rotate(6 168 45)"/>
+    <circle cx="38" cy="28" r="12" fill="#E47E3D" opacity="0.75"/>
+    <circle cx="190" cy="148" r="8" fill="#C7868D" opacity="0.8"/>
+  </svg>
+
+  <div class="page-hero-inner" style="opacity:0;animation:fadeUp 0.8s ease forwards 0.3s;">
+    <div>
+      <p class="page-eyebrow">Références & crédibilité</p>
+      <h1>Liens<br>& <em>Médias</em></h1>
+    </div>
+    <p class="page-hero-desc">
+      35 ans de pratique documentés par la presse, les podcasts et les médias spécialisés. Des lieux qui continuent d'exister et de transformer leurs territoires — partout en France.
+    </p>
+  </div>
+</section>
+
+<!-- ═══ STRIP ═══ -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <div class="strip-item"><span></span>Presse & interviews</div>
+    <div class="strip-item"><span></span>La REcyclerie</div>
+    <div class="strip-item"><span></span>La Cité Fertile</div>
+    <div class="strip-item"><span></span>Podcasts</div>
+    <div class="strip-item"><span></span>Mediatico</div>
+    <div class="strip-item"><span></span>Campus des Tiers-Lieux</div>
+    <div class="strip-item"><span></span>Transition écologique</div>
+    <div class="strip-item"><span></span>Le Pavillon des Canaux</div>
+    <div class="strip-item"><span></span>Presse & interviews</div>
+    <div class="strip-item"><span></span>La REcyclerie</div>
+    <div class="strip-item"><span></span>La Cité Fertile</div>
+    <div class="strip-item"><span></span>Podcasts</div>
+    <div class="strip-item"><span></span>Mediatico</div>
+    <div class="strip-item"><span></span>Campus des Tiers-Lieux</div>
+    <div class="strip-item"><span></span>Transition écologique</div>
+    <div class="strip-item"><span></span>Le Pavillon des Canaux</div>
+  </div>
+</div>
+
+<!-- ═══ TABS ═══ -->
+<div class="tabs-section">
+
+  <!-- TABS NAV -->
+  <div class="tabs-bar" role="tablist">
+    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-presse" onclick="switchTab('presse',this)">Presse & interviews</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-podcasts" onclick="switchTab('podcasts',this)">Podcasts</button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-lieux" onclick="switchTab('lieux',this)">Les lieux</button>
+  </div>
+
+  <!-- ─── TAB PRESSE ─── -->
+  <div id="tab-presse" class="tab-content active" role="tabpanel">
+
+    <!-- Citation mise en avant -->
+    <div class="featured-quote reveal">
+      <div class="fq-mark" aria-hidden="true">"</div>
+      <p class="fq-text">À la sortie du confinement, nous étions devenus des partenaires crédibles pour nombre d'élus ou d'établissements traditionnellement conservateurs.</p>
+      <p class="fq-source">Stéphane Vatinel — News Tank Culture, Think Culture 2020</p>
+    </div>
+
+    <!-- Grille articles -->
+    <div class="press-grid reveal">
+
+      <a href="https://mediatico.fr/exclusif-la-recyclerie-sauvee-in-extremis-un-consortium-corse-irlandais-reprend-le-tiers-lieu-ecologique-du-nord-parisien/" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">Mediatico — Exclusif</div>
+        <div class="press-title">La REcyclerie sauvée in extremis : un consortium corse-irlandais reprend le tiers-lieu</div>
+        <div class="press-excerpt">Stéphane Vatinel détaille les modalités de la reprise et son soulagement : « La REcyclerie ne disparaît pas. Elle garde son nom, ses engagements, et sa programmation. »</div>
+        <div class="press-meta">
+          <span class="press-date">Mai 2026</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://www.actu-juridique.fr/civil/immobilier/stephane-vatinel-les-tiers-lieux-vont-sauver-le-monde/" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">Actu-Juridique</div>
+        <div class="press-title">« Les tiers-lieux vont sauver le monde »</div>
+        <div class="press-excerpt">Sur la Cité Fertile pensée comme une ville durable dans la ville : restaurant locavore, brasserie artisanale, incubateur, espaces de travail et jardins en Seine-Saint-Denis.</div>
+        <div class="press-meta">
+          <span class="press-date">Octobre 2022</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://leshorizons.net/stephane-vatinel-les-tiers-lieux-representent-une-nouvelle-economie/" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">Les Horizons</div>
+        <div class="press-title">« Les tiers-lieux représentent une nouvelle économie »</div>
+        <div class="press-excerpt">De la genèse de Sinny & Ooko et du Comptoir Général — premier vrai tiers-lieu en 2008 — jusqu'au Campus des Tiers-Lieux et à la vision d'un maillage territorial national.</div>
+        <div class="press-meta">
+          <span class="press-date">Novembre 2023</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://www.carenews.com/carenews-info/news/stephane-vatinel-president-de-sinnyooko-pourquoi-faut-il-essaimer-les-tiers" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">Carenews</div>
+        <div class="press-title">Pourquoi faut-il essaimer les tiers-lieux ?</div>
+        <div class="press-excerpt">Stéphane Vatinel raconte son modèle économique hybride et sa conviction : chaque commune mérite un tiers-lieu. Un million de visiteurs par an dans ses espaces.</div>
+        <div class="press-meta">
+          <span class="press-date">2023</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://objectifgrandparis.fr/stephane-vatinel-la-passion-du-tiers-lieu/" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">Objectif Grand Paris</div>
+        <div class="press-title">La passion du tiers-lieu</div>
+        <div class="press-excerpt">Portrait de Stéphane Vatinel : de son enfance dans la Bresse à la création de la Cité Fertile à Pantin. Le Campus des Tiers-Lieux a déjà formé près de 300 personnes.</div>
+        <div class="press-meta">
+          <span class="press-date">Décembre 2021</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://culture.newstank.fr/fr/tour/news/192331/think-culture-2020-crise-covid-19-rendu-tiers-lieux-plus-credibles-stephane.html" target="_blank" rel="noopener" class="press-card">
+        <div class="press-source">News Tank Culture</div>
+        <div class="press-title">Think Culture 2020 : « La crise Covid a rendu les tiers-lieux plus crédibles »</div>
+        <div class="press-excerpt">Intervention sur le rôle des tiers-lieux dans la politique culturelle. La crise a révélé la face cachée de l'iceberg : cohésion territoriale, associations, engagement citoyen.</div>
+        <div class="press-meta">
+          <span class="press-date">Septembre 2020</span>
+          <span class="press-arrow">→</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- ─── TAB PODCASTS ─── -->
+  <div id="tab-podcasts" class="tab-content" role="tabpanel">
+
+    <div class="podcast-list reveal">
+
+      <a href="https://shows.acast.com/aujourdhui-le-podcast/episodes/16-stephane-vatinel-des-tiers-lieux-pour-rendre-la-ville-plu" target="_blank" rel="noopener" class="podcast-card">
+        <div class="podcast-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        </div>
+        <div>
+          <div class="podcast-show">Aujourd'hui — Le Podcast</div>
+          <div class="podcast-title">Des tiers-lieux pour rendre la ville plus inclusive et participative</div>
+        </div>
+        <div class="podcast-meta">57 min · 2019</div>
+      </a>
+
+      <a href="https://sosweetplanet.com/podcast-la-cite-fertile-la-recyclerie-et-autres-tiers-lieux-avec-stephane-vatinel/" target="_blank" rel="noopener" class="podcast-card">
+        <div class="podcast-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        </div>
+        <div>
+          <div class="podcast-show">So Sweet Planet</div>
+          <div class="podcast-title">La Cité Fertile, La REcyclerie et autres tiers-lieux — friches, gares désaffectées et transition écologique</div>
+        </div>
+        <div class="podcast-meta">2022</div>
+      </a>
+
+      <a href="https://www.carenews.com/carenews-info/news/stephane-vatinel-president-de-sinnyooko-pourquoi-faut-il-essaimer-les-tiers" target="_blank" rel="noopener" class="podcast-card">
+        <div class="podcast-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        </div>
+        <div>
+          <div class="podcast-show">Changer La Norme — Carenews (S7 Ep.12)</div>
+          <div class="podcast-title">L'histoire de Sinny & Ooko, le modèle économique et la vision ESS des tiers-lieux</div>
+        </div>
+        <div class="podcast-meta">2023</div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- ─── TAB LIEUX ─── -->
+  <div id="tab-lieux" class="tab-content" role="tabpanel">
+
+    <!-- LIEUX ACTIFS -->
+    <div class="lieux-section reveal">
+      <div class="lieux-section-header">
+        <h2 class="lieux-section-title">Lieux <em>actifs</em></h2>
+        <span class="lieux-section-count">✦ En activité</span>
+        <span class="lieux-section-sub">Espaces créés ou co-fondés</span>
+      </div>
+      <div class="lieux-table">
+        <div class="lieu-row header-row" aria-hidden="true">
+          <span class="col-label">Nom du lieu</span>
+          <span class="col-label">Type</span>
+          <span class="col-label">Localisation</span>
+          <span class="col-label" style="text-align:right">Lien</span>
+        </div>
+        <a href="https://www.larecyclerie.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--bleu)"></div><span class="lieu-name-text">La REcyclerie</span></div>
+          <div class="lieu-type">Tiers-lieu éco-responsable · ancienne gare Petite Ceinture</div>
+          <div class="lieu-location">Paris 18e</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.lacitefertile.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--foret)"></div><span class="lieu-name-text">La Cité Fertile</span></div>
+          <div class="lieu-type">Ville durable dans la ville · 1M de visiteurs/an</div>
+          <div class="lieu-location">Pantin · 93</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.pavillondescanaux.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--sauge)"></div><span class="lieu-name-text">Le Pavillon des Canaux</span></div>
+          <div class="lieu-type">Café · coworking · programmation culturelle</div>
+          <div class="lieu-location">Paris 19e</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.lecomptoirgeneral.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--orange)"></div><span class="lieu-name-text">Le Comptoir Général</span></div>
+          <div class="lieu-type">1er tiers-lieu Sinny & Ooko · bar-musée éco-solidaire</div>
+          <div class="lieu-location">Paris 10e</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.lamachinedumoulinrouge.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--encre)"></div><span class="lieu-name-text">La Machine du Moulin Rouge</span></div>
+          <div class="lieu-type">Club · salle de concert · 750 places</div>
+          <div class="lieu-location">Paris 18e · Pigalle</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.lamachinedumoulinrouge.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--paille)"></div><span class="lieu-name-text">Le Bar à Bulles</span></div>
+          <div class="lieu-type">Bar rooftop · terrasse végétalisée</div>
+          <div class="lieu-location">Paris 18e · Pigalle</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+        <a href="https://www.lamachinedumoulinrouge.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--rose)"></div><span class="lieu-name-text">La Terrasse du Moulin Rouge</span></div>
+          <div class="lieu-type">Terrasse panoramique en rooftop</div>
+          <div class="lieu-location">Paris 18e · Toit du Moulin Rouge</div>
+          <span class="lieu-link">Visiter →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- LIEUX FONDATEURS -->
+    <div class="lieux-section reveal">
+      <div class="lieux-section-header">
+        <h2 class="lieux-section-title">Lieux <em>fondateurs</em></h2>
+        <span class="lieux-section-count">✦ La scène musicale</span>
+        <span class="lieux-section-sub">Vision construite dès 1992</span>
+      </div>
+      <div class="lieux-table">
+        <div class="lieu-row header-row" aria-hidden="true">
+          <span class="col-label">Nom du lieu</span>
+          <span class="col-label">Type</span>
+          <span class="col-label">Localisation</span>
+          <span class="col-label" style="text-align:right">Période</span>
+        </div>
+        <a href="https://www.glazart.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--kaki)"></div><span class="lieu-name-text">Glazart</span></div>
+          <div class="lieu-type">Salle de concert et club pluridisciplinaire · premier lieu fondé</div>
+          <div class="lieu-location">Paris 19e</div>
+          <span class="lieu-link">1992 →</span>
+        </a>
+        <a href="https://www.divandumonde.com" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--rose)"></div><span class="lieu-name-text">Le Divan du Monde</span></div>
+          <div class="lieu-type">Salle de concert · café-concert pluridisciplinaire</div>
+          <div class="lieu-location">Paris 18e · Montmartre</div>
+          <span class="lieu-link">2004–2008 →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- PROJETS TERRITORIAUX -->
+    <div class="lieux-section reveal">
+      <div class="lieux-section-header">
+        <h2 class="lieux-section-title">Projets <em>territoriaux</em></h2>
+        <span class="lieux-section-count">✦ Hors Paris</span>
+        <span class="lieux-section-sub">Réhabilitations en cours</span>
+      </div>
+      <div class="lieux-table">
+        <div class="lieu-row header-row" aria-hidden="true">
+          <span class="col-label">Nom du lieu</span>
+          <span class="col-label">Type</span>
+          <span class="col-label">Localisation</span>
+          <span class="col-label" style="text-align:right">Statut</span>
+        </div>
+        <a href="https://www.halleauxpoissons.org" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--cel)"></div><span class="lieu-name-text">La Halle aux Poissons</span></div>
+          <div class="lieu-type">Tiers-lieu dédié à l'écologie marine · patrimoine UNESCO</div>
+          <div class="lieu-location">Le Havre · Normandie</div>
+          <span class="lieu-link">2027 →</span>
+        </a>
+        <div class="lieu-row" style="cursor:default;">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--kaki)"></div><span class="lieu-name-text">La Halle aux Cheminées</span></div>
+          <div class="lieu-type">Tiers-lieu culturel éco-responsable · CEAT Jolimont</div>
+          <div class="lieu-location">Toulouse · 31</div>
+          <span class="lieu-link" style="color:var(--gris);">2026</span>
+        </div>
+        <a href="https://www.sinnyooko.com/le-campus-des-tiers-lieux/" target="_blank" rel="noopener" class="lieu-row">
+          <div class="lieu-row-name"><div class="lieu-dot" style="background:var(--foret)"></div><span class="lieu-name-text">Campus des Tiers-Lieux</span></div>
+          <div class="lieu-type">École · incubateur · agence conseil · 500 formés, 150 lieux ouverts</div>
+          <div class="lieu-location">Paris & territoires</div>
+          <span class="lieu-link">Voir →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- CTA retour -->
+    <div class="page-cta reveal">
+      <p class="page-cta-text">Un territoire, une friche,<br>une <em>vision à construire</em> ?</p>
+      <a href="stephane-vatinel-v5.html#contact" class="btn-cta-main">Construisons ensemble →</a>
+    </div>
+
+  </div>
+
+  <a href="stephane-vatinel-v5.html" class="btn-back">← Retour à la page principale</a>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-sig">Stéphane Vatinel</div>
+  <ul class="footer-links">
+    <li><a href="stephane-vatinel-v5.html#about">Vision</a></li>
+    <li><a href="stephane-vatinel-v5.html#impact">Impact</a></li>
+    <li><a href="stephane-vatinel-v5.html#lieux">Lieux</a></li>
+    <li><a href="stephane-vatinel-v5.html#mouvement">Mouvement</a></li>
+    <li><a href="stephane-vatinel-v5.html#methode">Méthode</a></li>
+    <li><a href="medias.html">Médias</a></li>
+    <li><a href="stephane-vatinel-v5.html#contact">Contact</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Stéphane Vatinel</div>
+</footer>
+
+<script>
+// ── TOUCH DETECTION ──
+const isTouchDevice = window.matchMedia('(hover:none)').matches;
+const cur = document.getElementById('cur');
+const ring = document.getElementById('ring');
+
+if (!isTouchDevice) {
+  document.addEventListener('mousemove', e => {
+    cur.style.left = e.clientX + 'px';
+    cur.style.top = e.clientY + 'px';
+    setTimeout(() => {
+      ring.style.left = e.clientX + 'px';
+      ring.style.top = e.clientY + 'px';
+    }, 60);
+  });
+  document.querySelectorAll('a,button,.press-card,.podcast-card,.lieu-row').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      ring.style.width = '56px'; ring.style.height = '56px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1.5)';
+      cur.style.background = 'var(--orange)';
+    });
+    el.addEventListener('mouseleave', () => {
+      ring.style.width = '36px'; ring.style.height = '36px';
+      cur.style.transform = 'translate(-50%,-50%) scale(1)';
+      cur.style.background = 'var(--foret)';
+    });
+  });
+} else {
+  if(cur) cur.style.display = 'none';
+  if(ring) ring.style.display = 'none';
+  document.body.style.cursor = 'auto';
+}
+
+// ── HAMBURGER ──
+const burger = document.getElementById('burger');
+const mobileNav = document.getElementById('mobile-nav');
+
+function openMobileNav() {
+  burger.classList.add('open');
+  mobileNav.classList.add('open');
+  mobileNav.setAttribute('aria-hidden','false');
+  burger.setAttribute('aria-expanded','true');
+  document.body.style.overflow = 'hidden';
+}
+function closeMobileNav() {
+  burger.classList.remove('open');
+  mobileNav.classList.remove('open');
+  mobileNav.setAttribute('aria-hidden','true');
+  burger.setAttribute('aria-expanded','false');
+  document.body.style.overflow = '';
+}
+burger.addEventListener('click', () => {
+  burger.classList.contains('open') ? closeMobileNav() : openMobileNav();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && mobileNav.classList.contains('open')) closeMobileNav();
+});
+
+// ── TABS ──
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => {
+    el.classList.remove('active');
+  });
+  document.querySelectorAll('.tab-btn').forEach(el => {
+    el.classList.remove('active');
+    el.setAttribute('aria-selected','false');
+  });
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected','true');
+
+  // Re-trigger reveals inside newly shown tab
+  const newReveals = document.querySelectorAll('#tab-' + name + ' .reveal:not(.visible)');
+  newReveals.forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), i * 100);
+  });
+}
+
+// ── SCROLL REVEAL ──
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      obs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.07 });
+reveals.forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
