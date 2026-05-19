@@ -79,6 +79,9 @@ nav{
   backdrop-filter:blur(16px);
   border-bottom:1px solid rgba(173,201,184,0.25);
 }
+.nav-actions{
+  display:flex;align-items:center;gap:1.5rem;
+}
 .nav-sig{
   font-family:'Caveat',cursive;
   font-size:1.5rem;font-weight:700;
@@ -601,15 +604,17 @@ footer{
     <div class="nav-sig">Stéphane Vatinel</div>
     <div class="nav-sub">Directeur artistique de territoire</div>
   </a>
-  <ul class="nav-links" role="list">
-    <li><a href="stephane-vatinel-v5.html#about">Vision</a></li>
-    <li><a href="stephane-vatinel-v5.html#impact">Impact</a></li>
-    <li><a href="stephane-vatinel-v5.html#lieux">Lieux</a></li>
-    <li><a href="stephane-vatinel-v5.html#mouvement">Mouvement</a></li>
-    <li><a href="stephane-vatinel-v5.html#methode">Méthode</a></li>
-    <li><a href="medias.html" class="active">Médias</a></li>
-    <li><a href="stephane-vatinel-v5.html#contact" class="nav-btn">Construisons ensemble</a></li>
-  </ul>
+  <div class="nav-actions">
+    <ul class="nav-links" role="list">
+      <li><a href="stephane-vatinel-v5.html#about">Vision</a></li>
+      <li><a href="stephane-vatinel-v5.html#impact">Impact</a></li>
+      <li><a href="stephane-vatinel-v5.html#lieux">Lieux</a></li>
+      <li><a href="stephane-vatinel-v5.html#mouvement">Mouvement</a></li>
+      <li><a href="stephane-vatinel-v5.html#methode">Méthode</a></li>
+      <li><a href="medias.html" class="active">Médias</a></li>
+    </ul>
+    <a href="stephane-vatinel-v5.html#contact" class="nav-btn">Construisons ensemble</a>
+  </div>
   <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
